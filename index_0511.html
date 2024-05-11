@@ -1,0 +1,448 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+		<link rel="stylesheet" href="dist/custom.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js-plugins/menu/font-awesome/css/fontawesome.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+
+
+		<title>Scroll Mode</title>
+		<meta name="description" content="Introducing Scroll Mode: a new way to view slide decks as scrollable web pages. Works for all your existing decks with no edits needed." />
+		<meta property="og:title" content="Scroll Mode" />
+		<meta property="og:description" content="Introducing Scroll Mode: a new way to view slide decks as scrollable web pages. Works for all your existing decks with no edits needed." />
+		<meta property="og:site_name" content="Slides" />
+		<meta property="og:image" content="https://media.slid.es/thumbnails/cf368e552577bf33cf0d82a3367d7beb/thumb.jpg?1698343121" />
+		<meta property="og:type" content="article" />
+		<meta property="og:url" content="https://slides.com/news/scroll-mode/scroll" />
+		<meta property="fb:app_id" content="146002942236376" />
+
+		<link rel="canonical" href="https://slides.com/news/scroll-mode" />
+		<link rel="manifest" href="misc/manifest.json">
+
+		<meta name="mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<link rel="stylesheet" media="all" href="https://assets-v2.slid.es/assets/slides/slides-9c25ece2476c8bf5a292aee738b856615560afa562b87317c421312b668451c1.css" />
+		<link rel="stylesheet" media="all" href="https://assets-v2.slid.es/assets/deck-consumption-ded253fa794a4920eb892039d02431199a4a36790351af8b2f0ec775a68cff23.css" />
+		<link rel="stylesheet" media="all" href="https://assets-v2.slid.es/assets/deck-v2-11e5d4704233d3de6917951f950813fbca871e294b5bafc56fd910a2c390009a.css" />
+
+		<!-- Font awesome is required for the chalkboard plugin -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+		<!-- Custom controls plugin is used to for opening and closing annotation modes. -->
+		<script src="https://cdn.jsdelivr.net/npm/reveal.js-plugins@latest/customcontrols/plugin.js"></script>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js-plugins@latest/customcontrols/style.css">
+		<!-- Chalkboard plugin -->
+		<script src="https://cdn.jsdelivr.net/npm/reveal.js-plugins@latest/chalkboard/plugin.js"></script>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js-plugins@latest/chalkboard/style.css">
+
+		<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+		<!-- Load content plugin -->
+		<script src="https://cdn.jsdelivr.net/npm/reveal.js-plugins@latest/loadcontent/plugin.js"></script>
+
+		<!-- Fullscreen plugin -->
+		<script src="https://cdn.jsdelivr.net/npm/reveal.js-plugins@latest/fullscreen/plugin.js"></script>
+
+		<!--Math Equation Editing-->
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=default'></script>
+
+<style id="user-css-output" type="text/css">.reveal .slides,
+.reveal .slides h1,
+.reveal .slides h2 {
+  font-weight: 400;
+}
+.reveal .slides h1,
+.reveal .slides h2 {
+  text-transform: uppercase;
+  font-family: "Bebas Neue", Arial, sans-serif;
+}
+.reveal .slides b,
+.reveal .slides strong {
+  font-weight: 900;
+}
+.reveal .media-shadow {
+  box-shadow: 0 6px 10px -5px rgba(0, 0, 0, 0.3), 0 20px 30px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+.reveal .media-shadow.hoverable {
+  transition: outline 0.2s ease, box-shadow 0.2s ease;
+}
+.reveal .media-shadow.hoverable:hover {
+  outline: 5px solid #9900ff;
+  box-shadow: 0 6px 15px -5px rgba(0, 0, 0, 0.4), 0 30px 40px 0 rgba(0, 0, 0, 0.3);
+}
+.reveal .ai-gradient-svg:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(to bottom right, #7B00FF, #1BAEE1);
+  border-radius: 0px;
+}
+.reveal .progress,
+.reveal .controls button {
+  color: #1BAEE1 !important;
+}
+.reveal .lock {
+  mix-blend-mode: overlay !important;
+}
+.reveal .reduced-lh h1,
+.reveal .reduced-lh h2,
+.reveal .reduced-lh h3 {
+  line-height: 0.9;
+}
+</style>
+		<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="QatXS2EjdtJTq2I436FHQG+BI0y65xNpvzkjgFPFObQDFwH/ZPACfSXTaeuPt6MVrzQbAx2MUYXUTaTcDvSYeQ==" />
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-LWVDH9STBJ"></script>
+<script type="text/javascript">
+  if( navigator.doNotTrack !== '1' && !/dnt=1/.test( window.location.search ) ) {
+    window.slidesMeasurementId = 'G-LWVDH9STBJ';
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-LWVDH9STBJ', {
+      page_title: 'decks-scroll'
+    });
+
+  }
+</script>
+<script type="text/javascript">
+    !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags getFeatureFlag getFeatureFlagPayload reloadFeatureFlags group updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures getActiveMatchingSurveys getSurveys onSessionId".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+    posthog.init('phc_QkZFJaDCIpVoVE127ePiwD5cyZPo1TPDulbTzPPO9uM',{api_host:'https://us.i.posthog.com'})
+</script>
+
+			<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@Slides">
+	<meta name="twitter:title" content="Scroll Mode">
+	<meta name="twitter:description" content="Introducing Scroll Mode: a new way to view slide decks as scrollable web pages. Works for all your existing decks with no edits needed.">
+	<meta name="twitter:image" content="https://media.slid.es/thumbnails/cf368e552577bf33cf0d82a3367d7beb/thumb.jpg?1698343121">
+
+	</head>
+	<body class="reveal-viewport theme-font-montserrat theme-color-black-blue">
+
+
+<header class="global-header ">
+  <div class="wrapper">
+    <div class="slides-logo logo-animation">
+      <a class="symbol" href="../../index.html" aria-label="Go to the Slides homepage">
+        <div class="box-1"></div>
+        <div class="box-2"></div>
+        <div class="box-3"></div>
+      </a>
+      <a class="word" href="../../index.html" aria-label="Go to the Slides homepage"></a>
+    </div>
+    <div class="nav-wrapper">
+        <ul class="nav nav-full">
+          <li class="nav-item " data-page-id="home/explore">
+            <a class="nav-item-anchor" href="misc/explore"><span class="nav-item-label wide">Presentations</span></a>
+          </li>
+          <li class="nav-item " data-page-id="home/templates">
+            <a class="nav-item-anchor" href="misc/templates"><span class="nav-item-label wide">Templates</span></a>
+          </li>
+          <li class="nav-item " data-page-id="home/features">
+            <a class="nav-item-anchor" href="misc/features"><span class="nav-item-label">Features</span></a>
+          </li>
+          <li class="nav-item " data-page-id="marketing/teams">
+            <a class="nav-item-anchor" href="../../for-teams"><span class="nav-item-label wide">Teams</span></a>
+          </li>
+          <li class="nav-item " data-page-id="static/pricing">
+            <a class="nav-item-anchor" href="../../pricing?h=1"><span class="nav-item-label">Pricing</span></a>
+          </li>
+          <li class="nav-item-divider hide-in-overlay-menu"></li>
+          <li class="nav-item hide-in-overlay-menu" data-page-id="sessions/new">
+            <a class="nav-item-anchor" href="misc/users/sign_in"><span class="nav-item-label">Log in</span></a>
+          </li>
+          <li class="nav-item hide-in-overlay-menu nav-item-highlighted">
+            <a class="nav-item-anchor" href="misc/decks/fork/1758178"><span class="nav-item-label">Sign up</span></a>
+          </li>
+        </ul>
+        <ul class="nav nav-compact">
+          <li class="nav-item" data-page-id="sessions/new">
+            <a class="nav-item-anchor" href="misc/users/sign_in"><span class="nav-item-label">Log in</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-item-anchor" href="misc/decks/fork/1758178"><span class="nav-item-label">Sign up</span></a>
+          </li>
+          <li class="nav-item menu-button nav-item-highlighted">
+            <button class="nav-item-anchor">
+              <span class="nav-item-label wide">Menu</span>
+              <svg class="menu-arrow" viewBox="0 0 20 20" width="18" height="18" style="vertical-align: middle;">
+                <path fill="currentColor" d="M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747 3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0 1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787 0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17 0-1.615z"></path>
+              </svg>
+            </button>
+          </li>
+        </ul>
+    </div>
+  </div>
+
+
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>Slide 1</section>
+				<section>Slide 2</section>
+
+<!--				BEGIN-->
+
+
+				<section data-id="75af1e1a3bb337ce75e83503d7c82223" data-auto-animate="" data-auto-animate-easing="cubic-bezier(0.860, 0.000, 0.070, 1.000)" data-background-color="rgb(0, 0, 0)"><div class="sl-block" data-block-type="text" style="height: auto; width: 450px; left: 414.997px; top: 234.406px;" data-block-id="d8e7fd7eda944fc67312793183ea427b" data-name="text-84c2a7">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; text-align: center; font-size: 130%; color: rgb(0, 0, 0); padding: 90px; background-color: rgb(255, 255, 255);"><h2>Slide 2</h2></div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 450px; left: -35.003px; top: 234.406px;" data-block-id="a1419ab2807b216650ba62b62c6d7bcc" data-name="text-20174e">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; text-align: center; font-size: 130%; color: rgb(0, 0, 0); padding: 90px; background-color: rgb(102, 102, 102);"><h2>Slide 1</h2></div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 450px; left: 864.997px; top: 234.406px;" data-block-id="e47b7fc88b1e7479321b062e2f9774f7" data-name="text-20eb26">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; text-align: center; font-size: 130%; color: rgb(0, 0, 0); padding: 90px; background-color: rgb(102, 102, 102); border-style: solid;"><h2>SlidE 3</h2></div>
+</div>
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 353px; left: 36.417px; top: 41.236px;" data-name="text-b7729e1" data-block-id="f3e248a5b34714162cf7dc2c8eb35e80">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; text-align: left; font-size: 160%;"><h2>Turn this...</h2></div>
+</div>
+
+
+<div class="sl-block sl-block-group" data-block-type="group" data-name="group-c0a18c" data-block-id="fbdd704594420222451f86f29b0faa43"><div class="sl-block-content sl-block-group-content" style="transform-origin: 639.284px 360px; z-index: 14;">
+<div class="sl-block" data-block-type="shape" style="width: 468.579px; height: 35.504px; left: 404.994px; top: 200.406px;" data-origin-id="306902fb6cdb6a4b50a10c23b4b1043e" data-name="shape-9012f6" data-block-id="0a911a1fc91d49bb432c126a0f734274"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(153, 0, 255)" data-shape-stretch="true" style="z-index: 15;" data-shape-corner-radius="8px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 469 36"><rect width="468.579" height="35.504" rx="8" ry="8" class="shape-element" fill="rgb(153, 0, 255)"></rect></svg></div></div>
+<div class="sl-block sl-block-group" data-block-type="group" data-origin-id="0fa63486d650fbc27164cdec2d8a8bec" data-name="group-99a4ee" data-block-id="b96a58bde38496ade32bb304ba55e85f"><div class="sl-block-style" style="z-index: 16; opacity: 0.7;"><div class="sl-block-content sl-block-group-content" style="transform-origin: 440.222px 217.911px; z-index: 16;">
+<div class="sl-block" data-block-type="shape" style="width: 12.1919px; height: 12.1919px; left: 417.126px; top: 211.815px;" data-origin-id="958489ff3f5bf570f386cc1042ee26bb" data-name="shape-93e503" data-block-id="5c91ef3ef9c8ddf7bc294ee59d820e91"><div class="sl-block-content" data-shape-type="circle" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 17;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 12 12"><ellipse rx="6.09595" ry="6.09595" cx="6.09595" cy="6.09595" class="shape-element" fill="rgb(255, 255, 255)"></ellipse></svg></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 12.1919px; height: 12.1919px; left: 434.126px; top: 211.815px;" data-origin-id="9cca91aca9a08511b94f14e44aeb901b" data-name="shape-6240a5" data-block-id="37c810c33371430fae16ad3c9c0dde37"><div class="sl-block-content" data-shape-type="circle" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 18;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 12 12"><ellipse rx="6.09595" ry="6.09595" cx="6.09595" cy="6.09595" class="shape-element" fill="rgb(255, 255, 255)"></ellipse></svg></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 12.1919px; height: 12.1919px; left: 451.126px; top: 211.815px;" data-origin-id="342827c17d2109d31dc93a595bf62edb" data-name="shape-828044" data-block-id="b40bbf9182c01be5169986f95864df93"><div class="sl-block-content" data-shape-type="circle" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 19;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 12 12"><ellipse rx="6.09595" ry="6.09595" cx="6.09595" cy="6.09595" class="shape-element" fill="rgb(255, 255, 255)"></ellipse></svg></div></div>
+</div></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 468.579px; height: 295.587px; left: 404.994px; top: 224.006px;" data-name="shape-afd96d" data-origin-id="43976f2e8da1b5b34dea86f44dceff7e" data-block-id="1cb2510b3b10a00b0af453e25b9fb0f9"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgba(0, 0, 0, 0)" data-shape-stretch="true" style="z-index: 20;" data-shape-stroke-color="#9900ff" data-shape-stroke-width="10px" data-shape-corner-radius="8px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 469 296"><defs><clippath id="shape-mask-6-1698309646717"><rect width="468.579" height="295.587" rx="8" ry="8" fill="rgba(0, 0, 0, 0)" stroke="#9900ff" stroke-width="20"></rect></clippath></defs><rect width="468.579" height="295.587" rx="8" ry="8" class="shape-element" fill="rgba(0, 0, 0, 0)" stroke="#9900ff" stroke-width="20" clip-path="url(#shape-mask-6-1698309646717)"></rect></svg></div></div>
+</div></div>
+<div class="sl-block sl-block-group" data-block-type="group" data-name="group-098e7b" data-block-id="af84e6312018de3287ccec0ef505788c"><div class="sl-block-style" style="z-index: 21; opacity: 0;"><div class="sl-block-content sl-block-group-content" style="transform-origin: 807.557px 372.757px; z-index: 21;">
+<div class="sl-block" data-block-type="shape" style="width: 15.3897px; height: 81.8115px; left: 799.862px; top: 244px;" data-name="shape-bc4000" data-block-id="ffacfa2c6e5b7cab9b1c9d4afd585c8f"><div class="sl-block-style" style="z-index: 22; opacity: 0.3;"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="#000000" data-shape-stretch="true" style="z-index: 22;" data-shape-corner-radius="8px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 15 82"><rect width="15.3897" height="81.8115" rx="8" ry="8" class="shape-element" fill="#000000"></rect></svg></div></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 15.3897px; height: 81.8115px; left: 799.862px; top: 332.044px;" data-name="shape-d571d3" data-auto-animate-delay="0.1" data-block-id="481ce3323c7c45436a71d40e298eff6c" data-auto-animate-duration="0.9"><div class="sl-block-style" style="z-index: 23; opacity: 0.3;"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="#000000" data-shape-stretch="true" style="z-index: 23;" data-shape-corner-radius="8px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 15 82"><rect width="15.3897" height="81.8115" rx="8" ry="8" class="shape-element" fill="#000000"></rect></svg></div></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 15.3897px; height: 81.8115px; left: 799.862px; top: 419.703px;" data-name="shape-dfbb19" data-auto-animate-delay="0.2" data-block-id="58a652f7e31c0accd2c991a62469bb8a" data-auto-animate-duration="0.8"><div class="sl-block-style" style="z-index: 24; opacity: 0.3;"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="#000000" data-shape-stretch="true" style="z-index: 24;" data-shape-corner-radius="8px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 15 82"><rect width="15.3897" height="81.8115" rx="8" ry="8" class="shape-element" fill="#000000"></rect></svg></div></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 15.3897px; height: 81.8115px; left: 799.862px; top: 330.894px;" data-name="shape-efade7" data-block-id="3bca054fbad418b92ec5fa8fc6df4625" data-auto-animate-duration="0.9" data-auto-animate-delay="0.1"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="#000000" data-shape-stretch="true" style="z-index: 25;" data-shape-corner-radius="8px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 15 82"><rect width="15.3897" height="81.8115" rx="8" ry="8" class="shape-element" fill="#000000"></rect></svg></div></div>
+</div></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 353.329px; left: 36.417px; top: 214px;" data-name="text-fd8376x" data-block-id="bb50ed798ff3b23060dc65dbce0cffe6">
+    <div class="sl-block-style" style="z-index: 26; opacity: 0;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 26; text-align: left; font-size: 160%;"><h2>Into this</h2></div></div>
+</div></section><section data-auto-animate="" data-id="ab22ebc49c0a5529c59fda3278d3adc1" data-auto-animate-easing="cubic-bezier(0.860, 0.000, 0.070, 1.000)" data-background-color="rgb(0, 0, 0)">
+
+
+
+
+
+
+
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 450px; left: 414.997px; top: 234.406px;" data-name="text-84c2a7" data-block-id="84cf734894003124208c71e38619a0cf">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; text-align: center; font-size: 130%; color: rgb(0, 0, 0); padding: 90px; background-color: rgb(255, 255, 255);"><h2>Slide 2</h2></div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 450px; left: 415px; top: -40.09px;" data-name="text-20174e" data-block-id="0a76c3f0e2ea8fbcfa997214e5d1c004">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; text-align: center; font-size: 130%; color: rgb(0, 0, 0); padding: 90px; background-color: rgb(102, 102, 102);"><h2>Slide 1</h2></div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 450px; left: 414.284px; top: 510.406px;" data-name="text-20eb26" data-block-id="67f2b56c05bc9e2eb964fe08ce6b24d7">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; text-align: center; font-size: 130%; color: rgb(0, 0, 0); padding: 90px; background-color: rgb(102, 102, 102); border-style: solid;"><h2>SlidE 3</h2></div>
+</div>
+<div class="sl-block sl-block-group" data-block-type="group" data-name="group-c0a18c" data-block-id="41e82cb17c3ce3b38918982298e0dcd2"><div class="sl-block-content sl-block-group-content" style="transform-origin: 639.284px 360px; z-index: 13;">
+<div class="sl-block" data-block-type="shape" style="width: 468.579px; height: 35.504px; left: 404.994px; top: 200.406px;" data-origin-id="0a911a1fc91d49bb432c126a0f734274" data-name="shape-9012f6" data-block-id="01385201e732f012f18a6dd91f081cf2"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(153, 0, 255)" data-shape-stretch="true" style="z-index: 14;" data-shape-corner-radius="8px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 469 36"><rect width="468.579" height="35.504" rx="8" ry="8" class="shape-element" fill="rgb(153, 0, 255)"></rect></svg></div></div>
+<div class="sl-block sl-block-group" data-block-type="group" data-origin-id="b96a58bde38496ade32bb304ba55e85f" data-name="group-99a4ee" data-block-id="871c332353de60576f884dcc61db7ad6"><div class="sl-block-style" style="z-index: 15; opacity: 0.7;"><div class="sl-block-content sl-block-group-content" style="transform-origin: 440.222px 217.911px; z-index: 15;">
+<div class="sl-block" data-block-type="shape" style="width: 12.1919px; height: 12.1919px; left: 417.126px; top: 211.815px;" data-origin-id="5c91ef3ef9c8ddf7bc294ee59d820e91" data-name="shape-93e503" data-block-id="46e487c634aa8644105e8ace415e27d6"><div class="sl-block-content" data-shape-type="circle" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 16;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 12 12"><ellipse rx="6.09595" ry="6.09595" cx="6.09595" cy="6.09595" class="shape-element" fill="rgb(255, 255, 255)"></ellipse></svg></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 12.1919px; height: 12.1919px; left: 434.126px; top: 211.815px;" data-origin-id="37c810c33371430fae16ad3c9c0dde37" data-name="shape-6240a5" data-block-id="574e5f7da30ab9c121183fe68ad1b325"><div class="sl-block-content" data-shape-type="circle" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 17;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 12 12"><ellipse rx="6.09595" ry="6.09595" cx="6.09595" cy="6.09595" class="shape-element" fill="rgb(255, 255, 255)"></ellipse></svg></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 12.1919px; height: 12.1919px; left: 451.126px; top: 211.815px;" data-origin-id="b40bbf9182c01be5169986f95864df93" data-name="shape-828044" data-block-id="98b07420b4ee396bcb89a1e82bdf64bc"><div class="sl-block-content" data-shape-type="circle" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 18;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 12 12"><ellipse rx="6.09595" ry="6.09595" cx="6.09595" cy="6.09595" class="shape-element" fill="rgb(255, 255, 255)"></ellipse></svg></div></div>
+</div></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 468.579px; height: 295.587px; left: 404.994px; top: 224.006px;" data-name="shape-afd96d" data-origin-id="1cb2510b3b10a00b0af453e25b9fb0f9" data-block-id="74a7427f86feeb60ccdaf820b067e7f5"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgba(0, 0, 0, 0)" data-shape-stretch="true" style="z-index: 19;" data-shape-stroke-color="#9900ff" data-shape-stroke-width="10px" data-shape-corner-radius="8px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 469 296"><defs><clippath id="shape-mask-1-1698321832495"><rect width="468.579" height="295.587" rx="8" ry="8" fill="rgba(0, 0, 0, 0)" stroke="#9900ff" stroke-width="20"></rect></clippath></defs><rect width="468.579" height="295.587" rx="8" ry="8" class="shape-element" fill="rgba(0, 0, 0, 0)" stroke="#9900ff" stroke-width="20" clip-path="url(#shape-mask-1-1698321832495)"></rect></svg></div></div>
+</div></div>
+<div class="sl-block sl-block-group" data-block-type="group" data-name="group-098e7b" data-block-id="7f575cdafe1ec7cf7979d5c955753bdb"><div class="sl-block-content sl-block-group-content" style="transform-origin: 847.557px 372.757px; z-index: 20;">
+<div class="sl-block" data-block-type="shape" style="width: 15.3897px; height: 81.8115px; left: 839.862px; top: 244px;" data-name="shape-bc4000" data-origin-id="ffacfa2c6e5b7cab9b1c9d4afd585c8f" data-block-id="61ed1aa27494e5bd8819b07e85efd07a"><div class="sl-block-style" style="z-index: 21; opacity: 0.3;"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="#000000" data-shape-stretch="true" style="z-index: 21;" data-shape-corner-radius="8px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 15 82"><rect width="15.3897" height="81.8115" rx="8" ry="8" class="shape-element" fill="#000000"></rect></svg></div></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 15.3897px; height: 81.8115px; left: 839.862px; top: 332.044px;" data-name="shape-d571d3" data-auto-animate-delay="0.1" data-auto-animate-duration="0.9" data-origin-id="481ce3323c7c45436a71d40e298eff6c" data-block-id="b2494d595932441b2eea43c77cc6fad1"><div class="sl-block-style" style="z-index: 22; opacity: 0.3;"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="#000000" data-shape-stretch="true" style="z-index: 22;" data-shape-corner-radius="8px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 15 82"><rect width="15.3897" height="81.8115" rx="8" ry="8" class="shape-element" fill="#000000"></rect></svg></div></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 15.3897px; height: 81.8115px; left: 839.862px; top: 419.703px;" data-name="shape-dfbb19" data-auto-animate-delay="0.2" data-auto-animate-duration="0.8" data-origin-id="58a652f7e31c0accd2c991a62469bb8a" data-block-id="f0ce61125f7000d0b29f48c8a2b449cd"><div class="sl-block-style" style="z-index: 23; opacity: 0.3;"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="#000000" data-shape-stretch="true" style="z-index: 23;" data-shape-corner-radius="8px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 15 82"><rect width="15.3897" height="81.8115" rx="8" ry="8" class="shape-element" fill="#000000"></rect></svg></div></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 15.3897px; height: 81.8115px; left: 839.862px; top: 330.894px;" data-name="shape-efade7" data-auto-animate-duration="0.9" data-origin-id="3bca054fbad418b92ec5fa8fc6df4625" data-block-id="6249507f59345100e539bd81a3de4f9f" data-auto-animate-delay="0.1"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="#000000" data-shape-stretch="true" style="z-index: 24;" data-shape-corner-radius="8px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 15 82"><rect width="15.3897" height="81.8115" rx="8" ry="8" class="shape-element" fill="#000000"></rect></svg></div></div>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 353.329px; left: 36.417px; top: 141px;" data-block-id="e3c55a243e05d71f58000e1b75863f2c" data-name="text-9d8cd4">
+    <div class="sl-block-style" style="z-index: 25; opacity: 0;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 25; text-align: left; font-size: 160%;"><h2>Turn this...</h2></div></div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 353.329px; left: 36.417px; top: 313.5px;" data-name="text-b7729e1x" data-block-id="beecdecf087ea64b460b4a4bb7cd5179">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 26; text-align: left; font-size: 160%;"><h2>Into this</h2></div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 602.734px; left: 961.396px; top: 275.5px;" data-name="text-9e85a89" data-origin-id="3a90203823e837b718f7b154f9e8ec91" data-block-id="d5e9d6bbad0e7241f123ad476b1dbafa">
+    <div class="sl-block-style" style="z-index: 28; opacity: 0;"><div class="sl-block-content reduced-lh" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 28; text-align: left; font-size: 160%;"><h2>The scrollbar is split by slide</h2></div></div>
+</div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 0px; min-height: 0px; left: 886px; top: 284.712px;" data-name="line-ce7746" data-origin-id="1788574fe2dd618e38fca242bac835b9" data-block-id="c47035bd20355ae98c5dcb7f4397f25e"><div class="sl-block-style" style="z-index: 29; opacity: 0;"><div class="sl-block-content" data-line-x1="0" data-line-y1="0.19375000000002274" data-line-x2="61.42571618920719" data-line-y2="0" data-line-color="#ffffff" data-line-start-type="line-arrow" data-line-end-type="none" style="z-index: 29;" data-line-width="9px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="61.42571618920719" height="1" viewbox="0 0 61.42571618920719 1"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="7.249966422102326" y1="0.6724591453642527" x2="61.92571618920719" y2="0.5"></line><line class="line-element" stroke="#ffffff" stroke-width="9" x1="7.249966422102326" y1="0.6724591453642527" x2="61.92571618920719" y2="0.5"></line><path style="fill: rgba(0,0,0,0);" stroke="#ffffff" stroke-width="9" transform="translate(6.749966422102326,0.17245914536425266) rotate(89.819)" d="M -20.25 -20.25 L 0 0 L 20.25 -20.25"></path></svg></div></div></div></section><section data-auto-animate="" data-id="dbc7bc414f76b41e0ca4dbdc7efa1e7b" data-auto-animate-easing="cubic-bezier(0.860, 0.000, 0.070, 1.000)" data-background-color="rgb(0, 0, 0)">
+
+
+
+
+
+
+
+
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 0px; min-height: 0px; left: 491px; top: 284.712px;" data-block-id="c99fb4cf020cf6d70ed767b9dad626e4" data-name="line-71006c"><div class="sl-block-style" style="z-index: 16; opacity: 0;"><div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="46.50233177881412" data-line-y2="0" data-line-color="#ffffff" data-line-start-type="line-arrow" data-line-end-type="none" style="z-index: 16;" data-line-width="7px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="46.50233177881412" height="1" viewbox="0 0 46.50233177881412 1"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="5.75" y1="0.5" x2="47.00233177881412" y2="0.5"></line><line class="line-element" stroke="#ffffff" stroke-width="7" x1="5.75" y1="0.5" x2="47.00233177881412" y2="0.5"></line><path style="fill: rgba(0,0,0,0);" stroke="#ffffff" stroke-width="7" transform="translate(5.25,0) rotate(90)" d="M -15.75 -15.75 L 0 0 L 15.75 -15.75"></path></svg></div></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 450px; left: 74.64px; top: 509.856px;" data-name="text-84c2a7" data-block-id="f9c3f5bf830507a0f10c6e3cca0b3c9e">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15; text-align: center; font-size: 130%; color: rgb(0, 0, 0); padding: 90px; background-color: rgb(102, 102, 102);"><h2>Slide 2</h2></div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 450px; left: 74.997px; top: 236.406px;" data-name="text-20174e" data-block-id="f7972b813d05210da29993959f3b1411">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; text-align: center; font-size: 130%; color: rgb(0, 0, 0); padding: 90px; background-color: rgb(255, 255, 255);"><h2>Slide 1</h2></div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 450px; left: 73.927px; top: 785.856px;" data-name="text-20eb26" data-block-id="86d6d95a424164239449c2494d832beb">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14; text-align: center; font-size: 130%; color: rgb(0, 0, 0); padding: 90px; background-color: rgb(102, 102, 102); border-style: solid;"><h2>SlidE 3</h2></div>
+</div>
+<div class="sl-block sl-block-group" data-block-type="group" data-name="group-098e7b" data-block-id="2b811f1385b30e403eaf7da49f2a2266"><div class="sl-block-content sl-block-group-content" style="transform-origin: 507.557px 372.757px; z-index: 24;">
+<div class="sl-block" data-block-type="shape" style="width: 15.3897px; height: 81.8115px; left: 499.862px; top: 244px;" data-name="shape-bc4000" data-origin-id="61ed1aa27494e5bd8819b07e85efd07a" data-block-id="df62c5075d7ae948a9818d20c9029e5d"><div class="sl-block-style" style="z-index: 25; opacity: 0.3;"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="#000000" data-shape-stretch="true" style="z-index: 25;" data-shape-corner-radius="8px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 15 82"><rect width="15.3897" height="81.8115" rx="8" ry="8" class="shape-element" fill="#000000"></rect></svg></div></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 15.3897px; height: 81.8115px; left: 499.862px; top: 332.044px;" data-name="shape-d571d3" data-origin-id="b2494d595932441b2eea43c77cc6fad1" data-block-id="d891139ba368228c36b24abe72d7773d"><div class="sl-block-style" style="z-index: 26; opacity: 0.3;"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="#000000" data-shape-stretch="true" style="z-index: 26;" data-shape-corner-radius="8px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 15 82"><rect width="15.3897" height="81.8115" rx="8" ry="8" class="shape-element" fill="#000000"></rect></svg></div></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 15.3897px; height: 81.8115px; left: 499.862px; top: 419.703px;" data-name="shape-dfbb19" data-origin-id="f0ce61125f7000d0b29f48c8a2b449cd" data-block-id="e4f08d1f37dff1bdc38a56b53dc4aee9"><div class="sl-block-style" style="z-index: 27; opacity: 0.3;"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="#000000" data-shape-stretch="true" style="z-index: 27;" data-shape-corner-radius="8px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 15 82"><rect width="15.3897" height="81.8115" rx="8" ry="8" class="shape-element" fill="#000000"></rect></svg></div></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 15.3897px; height: 81.8115px; left: 499.862px; top: 244px;" data-name="shape-efade7" data-origin-id="6249507f59345100e539bd81a3de4f9f" data-block-id="88179d5171b16db0ff846837df66cd6a"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="#000000" data-shape-stretch="true" style="z-index: 28;" data-shape-corner-radius="8px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 15 82"><rect width="15.3897" height="81.8115" rx="8" ry="8" class="shape-element" fill="#000000"></rect></svg></div></div>
+</div></div>
+<div class="sl-block sl-block-group" data-block-type="group" data-name="group-c0a18c" data-block-id="163b13bb96427334ac082b9532701c7f"><div class="sl-block-content sl-block-group-content" style="transform-origin: 299.284px 360px; z-index: 17;">
+<div class="sl-block" data-block-type="shape" style="width: 468.579px; height: 35.504px; left: 64.994px; top: 200.406px;" data-origin-id="d123e068c7b2f5e44a02b66b1ef48583" data-name="shape-9012f6" data-block-id="be922980b3259142b1e32c047478d871"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(153, 0, 255)" data-shape-stretch="true" style="z-index: 18;" data-shape-corner-radius="8px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 469 36"><rect width="468.579" height="35.504" rx="8" ry="8" class="shape-element" fill="rgb(153, 0, 255)"></rect></svg></div></div>
+<div class="sl-block sl-block-group" data-block-type="group" data-origin-id="49b9146759a229caaf6fe1856de2fccd" data-name="group-99a4ee" data-block-id="3e5bedcdb9c2e0a9d1ac88017fc1064d"><div class="sl-block-style" style="z-index: 19; opacity: 0.7;"><div class="sl-block-content sl-block-group-content" style="transform-origin: 100.222px 217.911px; z-index: 19;">
+<div class="sl-block" data-block-type="shape" style="width: 12.1919px; height: 12.1919px; left: 77.126px; top: 211.815px;" data-origin-id="9368b393165ff6cc08145faca51881a0" data-name="shape-93e503" data-block-id="1832a47f4b6f94f60eea73dcd3147569"><div class="sl-block-content" data-shape-type="circle" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 20;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 12 12"><ellipse rx="6.09595" ry="6.09595" cx="6.09595" cy="6.09595" class="shape-element" fill="rgb(255, 255, 255)"></ellipse></svg></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 12.1919px; height: 12.1919px; left: 94.126px; top: 211.815px;" data-origin-id="b5eff395883a979381f22e8ddf9c7443" data-name="shape-6240a5" data-block-id="6a8c215ccc0b3773b77a4f95c382d325"><div class="sl-block-content" data-shape-type="circle" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 21;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 12 12"><ellipse rx="6.09595" ry="6.09595" cx="6.09595" cy="6.09595" class="shape-element" fill="rgb(255, 255, 255)"></ellipse></svg></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 12.1919px; height: 12.1919px; left: 111.126px; top: 211.815px;" data-origin-id="8f09f1628c45157a9c1c2c6c093fcb0a" data-name="shape-828044" data-block-id="cf098d92d95f0200f14e76d5f4c16001"><div class="sl-block-content" data-shape-type="circle" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 22;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 12 12"><ellipse rx="6.09595" ry="6.09595" cx="6.09595" cy="6.09595" class="shape-element" fill="rgb(255, 255, 255)"></ellipse></svg></div></div>
+</div></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 468.579px; height: 295.587px; left: 64.994px; top: 224.006px;" data-name="shape-afd96d" data-origin-id="8d52308f1d582b36b1115f1c2b23a304" data-block-id="6562a3b33f5d812c0fa098aa7825ed36"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgba(0, 0, 0, 0)" data-shape-stretch="true" style="z-index: 23;" data-shape-stroke-color="#9900ff" data-shape-stroke-width="10px" data-shape-corner-radius="8px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 469 296"><defs><clippath id="shape-mask-3-1698322009059"><rect width="468.579" height="295.587" rx="8" ry="8" fill="rgba(0, 0, 0, 0)" stroke="#9900ff" stroke-width="20"></rect></clippath></defs><rect width="468.579" height="295.587" rx="8" ry="8" class="shape-element" fill="rgba(0, 0, 0, 0)" stroke="#9900ff" stroke-width="20" clip-path="url(#shape-mask-3-1698322009059)"></rect></svg></div></div>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 353.329px; left: -304px; top: 313.5px;" data-name="text-b7729e1x" data-block-id="355733ad15804b9d73fb42065ad5f112">
+    <div class="sl-block-style" style="z-index: 29; opacity: 0;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 29; text-align: left; font-size: 160%;"><h2>Into this</h2></div></div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 602.734px; left: 620.972px; top: 275.5px;" data-block-id="3a90203823e837b718f7b154f9e8ec91" data-name="text-9e85a89">
+    <div class="sl-block-content reduced-lh" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; text-align: left; font-size: 160%;"><h2>The scrollbar is split by slide</h2></div>
+</div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 0px; min-height: 0px; left: 545.576px; top: 284.712px;" data-name="line-ce7746" data-block-id="1788574fe2dd618e38fca242bac835b9"><div class="sl-block-content" data-line-x1="0" data-line-y1="0.19375000000002274" data-line-x2="61.42571618920719" data-line-y2="0" data-line-color="#ffffff" data-line-start-type="line-arrow" data-line-end-type="none" style="z-index: 12;" data-line-width="9px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="61.42571618920719" height="1" viewbox="0 0 61.42571618920719 1"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="7.249966422102326" y1="0.6724591453642527" x2="61.92571618920719" y2="0.5"></line><line class="line-element" stroke="#ffffff" stroke-width="9" x1="7.249966422102326" y1="0.6724591453642527" x2="61.92571618920719" y2="0.5"></line><path style="fill: rgba(0,0,0,0);" stroke="#ffffff" stroke-width="9" transform="translate(6.749966422102326,0.17245914536425266) rotate(89.819)" d="M -20.25 -20.25 L 0 0 L 20.25 -20.25"></path></svg></div></div></section><section data-auto-animate-easing="cubic-bezier(0.860, 0.000, 0.070, 1.000)" data-background-color="rgb(0, 0, 0)" data-auto-animate="" data-id="a791eb3c775e9337b268b1420cb7cd1f">
+
+
+
+
+
+
+
+
+
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; left: 491px; top: 284.712px;" data-name="line-71006c" data-block-id="b031139c0c979d25fe9e017a9ff2de9e"><div class="sl-block-style" style="z-index: 15; opacity: 0;"><div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="46.50233177881412" data-line-y2="0" data-line-color="#ffffff" data-line-start-type="line-arrow" data-line-end-type="none" style="z-index: 15;" data-line-width="7px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="46.50233177881412" height="1" viewbox="0 0 46.50233177881412 1"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="5.75" y1="0.5" x2="47.00233177881412" y2="0.5"></line><line class="line-element" stroke="#ffffff" stroke-width="7" x1="5.75" y1="0.5" x2="47.00233177881412" y2="0.5"></line><path style="fill: rgba(0,0,0,0);" stroke="#ffffff" stroke-width="7" transform="translate(5.25,0) rotate(90)" d="M -15.75 -15.75 L 0 0 L 15.75 -15.75"></path></svg></div></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 450px; left: 74.64px; top: -40.144px;" data-name="text-84c2a7" data-block-id="71d5e5ad4f577abcd73a622d88baaed3">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14; text-align: center; font-size: 130%; color: rgb(0, 0, 0); padding: 90px; background-color: rgb(102, 102, 102);"><h2>Slide 2</h2></div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 450px; left: 74.997px; top: -313.594px;" data-name="text-20174e" data-block-id="48120ff257b197e0a3e049b1f6d934ae">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; text-align: center; font-size: 130%; color: rgb(0, 0, 0); padding: 90px; background-color: rgb(102, 102, 102);"><h2>Slide 1</h2></div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 450px; left: 73.927px; top: 235.856px;" data-name="text-20eb26" data-block-id="2a1d78c81e91f5079664278ca48b8bc2">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; text-align: center; font-size: 130%; color: rgb(0, 0, 0); padding: 90px; background-color: rgb(255, 255, 255); border-style: solid;"><h2>SlidE 3</h2></div>
+</div>
+<div class="sl-block sl-block-group" data-block-type="group" data-name="group-098e7b" data-block-id="71a52583a8cdc8b66bb5728bb2fe4689"><div class="sl-block-content sl-block-group-content" style="transform-origin: 507.557px 372.757px; z-index: 32;">
+<div class="sl-block" data-block-type="shape" style="width: 15.3897px; height: 81.8115px; left: 499.862px; top: 244px;" data-name="shape-bc4000" data-block-id="6ce81bb00fd3500bf0ba5f4fb716c199"><div class="sl-block-style" style="z-index: 37; opacity: 0.3;"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="#000000" data-shape-stretch="true" style="z-index: 37;" data-shape-corner-radius="8px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 15 82"><rect width="15.3897" height="81.8115" rx="8" ry="8" class="shape-element" fill="#000000"></rect></svg></div></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 15.3897px; height: 81.8115px; left: 499.862px; top: 332.044px;" data-name="shape-d571d3" data-block-id="9fdb424c9873ab6bc70ef93adae64116"><div class="sl-block-style" style="z-index: 38; opacity: 0.3;"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="#000000" data-shape-stretch="true" style="z-index: 38;" data-shape-corner-radius="8px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 15 82"><rect width="15.3897" height="81.8115" rx="8" ry="8" class="shape-element" fill="#000000"></rect></svg></div></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 15.3897px; height: 81.8115px; left: 499.862px; top: 419.703px;" data-name="shape-dfbb19" data-block-id="e711f90329a83d618ef47fe2b04e7baa"><div class="sl-block-style" style="z-index: 39; opacity: 0.3;"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="#000000" data-shape-stretch="true" style="z-index: 39;" data-shape-corner-radius="8px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 15 82"><rect width="15.3897" height="81.8115" rx="8" ry="8" class="shape-element" fill="#000000"></rect></svg></div></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 15.3897px; height: 81.8115px; left: 499.862px; top: 419.703px;" data-name="shape-efade7" data-block-id="901205d2f7428524ccc5cd60f3f733d7"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="#000000" data-shape-stretch="true" style="z-index: 40;" data-shape-corner-radius="8px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 15 82"><rect width="15.3897" height="81.8115" rx="8" ry="8" class="shape-element" fill="#000000"></rect></svg></div></div>
+</div></div>
+<div class="sl-block sl-block-group" data-block-type="group" data-name="group-c0a18c" data-block-id="becd82b90a3eba2a0cbef853ded33b01"><div class="sl-block-content sl-block-group-content" style="transform-origin: 299.284px 360px; z-index: 16;">
+<div class="sl-block" data-block-type="shape" style="width: 468.579px; height: 35.504px; left: 64.994px; top: 200.406px;" data-name="shape-9012f6" data-block-id="5c217efae1d0ae3eaad2b08e237c3545"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(153, 0, 255)" data-shape-stretch="true" style="z-index: 23;" data-shape-corner-radius="8px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 469 36"><rect width="468.579" height="35.504" rx="8" ry="8" class="shape-element" fill="rgb(153, 0, 255)"></rect></svg></div></div>
+<div class="sl-block sl-block-group" data-block-type="group" data-name="group-99a4ee" data-block-id="cf4b5920990ceaa8536c141e397a252e"><div class="sl-block-style" style="z-index: 24; opacity: 0.7;"><div class="sl-block-content sl-block-group-content" style="transform-origin: 100.222px 217.911px; z-index: 24;">
+<div class="sl-block" data-block-type="shape" style="width: 12.1919px; height: 12.1919px; left: 77.126px; top: 211.815px;" data-name="shape-93e503" data-block-id="003d6490582e4e53c04f0dd6e336b819"><div class="sl-block-content" data-shape-type="circle" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 28;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 12 12"><ellipse rx="6.09595" ry="6.09595" cx="6.09595" cy="6.09595" class="shape-element" fill="rgb(255, 255, 255)"></ellipse></svg></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 12.1919px; height: 12.1919px; left: 94.126px; top: 211.815px;" data-name="shape-6240a5" data-block-id="7903690c69cd73f58ca3de1ebba3d745"><div class="sl-block-content" data-shape-type="circle" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 29;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 12 12"><ellipse rx="6.09595" ry="6.09595" cx="6.09595" cy="6.09595" class="shape-element" fill="rgb(255, 255, 255)"></ellipse></svg></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 12.1919px; height: 12.1919px; left: 111.126px; top: 211.815px;" data-name="shape-828044" data-block-id="7103ccdc7c8723e84ac5fb21ff89018c"><div class="sl-block-content" data-shape-type="circle" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 30;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 12 12"><ellipse rx="6.09595" ry="6.09595" cx="6.09595" cy="6.09595" class="shape-element" fill="rgb(255, 255, 255)"></ellipse></svg></div></div>
+</div></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 468.579px; height: 295.587px; left: 64.994px; top: 224.006px;" data-name="shape-afd96d" data-block-id="cb4e753b33cf2429f0dddd4a14d9a4f2"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgba(0, 0, 0, 0)" data-shape-stretch="true" style="z-index: 31;" data-shape-stroke-color="#9900ff" data-shape-stroke-width="10px" data-shape-corner-radius="8px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 469 296"><defs><clippath id="shape-mask-4-1698322753550"><rect width="468.579" height="295.587" rx="8" ry="8" fill="rgba(0, 0, 0, 0)" stroke="#9900ff" stroke-width="20"></rect></clippath></defs><rect width="468.579" height="295.587" rx="8" ry="8" class="shape-element" fill="rgba(0, 0, 0, 0)" stroke="#9900ff" stroke-width="20" clip-path="url(#shape-mask-4-1698322753550)"></rect></svg></div></div>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 602.734px; left: 620.972px; top: 451.5px;" data-name="text-9e85a89" data-block-id="f173b6ee65e8d89dc787458f5799d05f">
+    <div class="sl-block-content reduced-lh" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; text-align: left; font-size: 160%;"><h2>The scrollbar is split by slide</h2></div>
+</div>
+
+
+			</section>
+<!--				END-->
+
+<!--<section data-id="75af1e1a3bb337ce75e83503d7c82223" data-auto-animate="" data-auto-animate-easing="cubic-bezier(0.860, 0.000, 0.070, 1.000)" data-background-color="rgb(0, 0, 0)"><div class="sl-block" data-block-type="text" style="height: auto; width: 450px; left: 414.997px; top: 234.406px;" data-block-id="d8e7fd7eda944fc67312793183ea427b" data-name="text-84c2a7">-->
+<!--    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; text-align: center; font-size: 130%; color: rgb(0, 0, 0); padding: 90px; background-color: rgb(255, 255, 255);"><h2>Slide 2</h2></div>-->
+<!--</div>-->
+<!--<div class="sl-block" data-block-type="text" style="height: auto; width: 450px; left: -35.003px; top: 234.406px;" data-block-id="a1419ab2807b216650ba62b62c6d7bcc" data-name="text-20174e">-->
+<!--    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; text-align: center; font-size: 130%; color: rgb(0, 0, 0); padding: 90px; background-color: rgb(102, 102, 102);"><h2>Slide 1</h2></div>-->
+<!--</div>-->
+<!--<div class="sl-block" data-block-type="text" style="height: auto; width: 450px; left: 864.997px; top: 234.406px;" data-block-id="e47b7fc88b1e7479321b062e2f9774f7" data-name="text-20eb26">-->
+<!--    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; text-align: center; font-size: 130%; color: rgb(0, 0, 0); padding: 90px; background-color: rgb(102, 102, 102); border-style: solid;"><h2>SlidE 3</h2></div>-->
+<!--</div>-->
+
+<!--<div class="sl-block" data-block-type="text" style="height: auto; width: 353px; left: 36.417px; top: 41.236px;" data-name="text-b7729e1" data-block-id="f3e248a5b34714162cf7dc2c8eb35e80">-->
+<!--    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; text-align: left; font-size: 160%;"><h2>Turn this...</h2></div>-->
+<!--</div>-->
+<!--				</section>-->
+
+
+			</div>
+		</div>
+
+
+
+
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script src="plugin/menu/menu.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+				customcontrols: {
+				controls: [
+				{ icon: '<i class="fa fa-pen-square"></i>',
+				title: 'Toggle chalkboard (B)',
+				action: 'RevealChalkboard.toggleChalkboard();'
+				},
+				{ icon: '<i class="fa fa-pen"></i>',
+				title: 'Toggle notes canvas (C)',
+				action: 'RevealChalkboard.toggleNotesCanvas();'
+				}
+				]
+				},
+				chalkboard: { // font-awesome.min.css must be available
+					src: "chalkboard/chalkboard.json",
+					toggleChalkboardButton: { left: "80px" },
+					toggleNotesButton: { left: "130px" },
+//					theme: "whiteboard",
+//					background: [ 'rgba(127,127,127,.1)' , 'reveal.js-plugins/chalkboard/img/whiteboard.png' ],
+//					pen: [ 'reveal.js-plugins/chalkboard/img/boardmarker.png' , 'reveal.js-plugins/chalkboard/img/boardmarker.png' ],
+//				        color: [ 'rgba(0,0,255,1)', 'rgba(0,0,255,0.5)' ],
+//				        draw: [ (RevealChalkboard) ?  RevealChalkboard.drawWithPen : null , (RevealChalkboard) ? RevealChalkboard.drawWithPen : null ],
+				},
+				keyboard: {
+				    67: function() { RevealChalkboard.toggleNotesCanvas() },	// toggle chalkboard when 'c' is pressed
+				    66: function() { RevealChalkboard.toggleChalkboard() },	// toggle chalkboard when 'b' is pressed
+				    46: function() { RevealChalkboard.clear() },	// clear chalkboard when 'DEL' is pressed
+				     8: function() { RevealChalkboard.reset() },	// reset all chalkboard data when 'BACKSPACE' is pressed
+				    68: function() { RevealChalkboard.download() },	// downlad chalkboard drawing when 'd' is pressed
+					90: function() { Recorder.downloadZip(); }, 	// press 'z' to download zip containing audio files
+					84: function() { Recorder.fetchTTS(); } 	// press 't' to fetch TTS audio files
+				},
+
+				controls: true,
+				slideNumber: true,
+
+				// Activate the scroll view
+				view: 'scroll',
+
+				// Force the scrollbar to remain visible
+				scrollProgress: true,
+
+				scrollLayout: 'compact',
+
+				// - auto:     Show the scrollbar while scrolling, hide while idle
+				// - true:     Always show the scrollbar
+				// - false:    Never show the scrollbar
+				scrollProgress: 'auto',
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealChalkboard, RevealCustomControls, RevealLoadContent, RevealFullscreen, RevealMenu ]
+			});
+		</script>
+	</body>
+</html>

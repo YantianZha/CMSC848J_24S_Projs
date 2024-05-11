@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html class="sl-root passwords new devise" data-account=""  lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>Slides</title>
+    <meta name="description" content="Slides is a place for creating, presenting and sharing modern presentations. Sign up for free." />
+    <meta name="viewport" content="initial-scale=1.0" />
+
+    <meta name="theme-color" content="#eee" />
+
+    <meta property="og:title" content="Slides" />
+    <meta property="og:description" content="Slides is a place for creating, presenting and sharing modern presentations. Sign up for free." />
+    <meta property="og:site_name" content="Slides" />
+    <meta property="og:image" content="https://static.slid.es/logo/slides-logo-495x479.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://slides.com/users/password/new" />
+    <meta property="fb:app_id" content="146002942236376" />
+
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="msapplication-tap-highlight" content="no" />
+
+    <link rel="icon" href="../../favicon.ico">
+    <link rel="canonical" href="new" />
+    <link rel="manifest" href="../../manifest.json">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" media="print" onload="this.onload=null;this.removeAttribute('media');" rel="stylesheet" data-application-font="inter">
+<noscript>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" data-application-font="inter">
+</noscript>
+
+    <link rel="stylesheet" media="all" href="https://assets-v2.slid.es/assets/slides/slides-9c25ece2476c8bf5a292aee738b856615560afa562b87317c421312b668451c1.css" />
+    <link rel="stylesheet" media="all" href="https://assets-v2.slid.es/assets/application-8d44c00fad2ed21bf300c56966d1b6e331e5225aa1a3eb451c912e7c0884885e.css" />
+    
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="KgW7f5NatsM4k6jwMt5+OwBgm37KZm+mowcuKcr60hNoue3LlonCbE7royNiyJpuwNWjMW0NLUrIc6l1l8tz3g==" />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LWVDH9STBJ"></script>
+<script type="text/javascript">
+  if( navigator.doNotTrack !== '1' && !/dnt=1/.test( window.location.search ) ) {
+    window.slidesMeasurementId = 'G-LWVDH9STBJ';
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-LWVDH9STBJ', {
+      page_title: 'passwords-new'
+    });
+
+  }
+</script>
+<script type="text/javascript">
+    !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags getFeatureFlag getFeatureFlagPayload reloadFeatureFlags group updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures getActiveMatchingSurveys getSurveys onSessionId".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+    posthog.init('phc_QkZFJaDCIpVoVE127ePiwD5cyZPo1TPDulbTzPPO9uM',{api_host:'https://us.i.posthog.com'})
+</script>
+
+    
+  </head>
+  <body >
+    
+    <div id="container" class="container">
+      
+
+<header class="global-header global-header-small ">
+  <div class="wrapper">
+    <div class="slides-logo logo-animation">
+      <a class="symbol" href="../../index.html" aria-label="Click the Slides logo to go to the homepage">
+        <div class="box-1"></div>
+        <div class="box-2"></div>
+        <div class="box-3"></div>
+      </a>
+      <a class="word dark" href="../../index.html"></a>
+    </div>
+    <div class="nav-wrapper">
+      <ul class="nav">
+          <li class="nav-item nav-item-outline" data-page-id="sessions/new">
+            <a class="nav-item-anchor" href="../sign_in"><span class="nav-item-label">Log in</span></a>
+          </li>
+          <li class="nav-item nav-item-outline" data-page-id="static/pricing">
+            <a class="nav-item-anchor" href="../../decks/fork/1758178"><span class="nav-item-label">Sign up</span></a>
+          </li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+
+      
+      <main id="main" class="main " role="main">
+        
+<div class="column thin">
+  <hgroup class="marketing-intro">
+    <h2>Forgot your password?</h2>
+  </hgroup>
+
+  <section>
+    <div class="header-with-description">
+      <p>Don't worry, it happens to all of us. Enter your email below and we'll send you instructions for setting a new password.</p>
+    </div>
+
+    <form class="new_user" id="new_user" action="https://slides.com/users/password" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="nbUfzYp0hUFLJ+ISF7LNqz/w9S0Cma7nyo3jocWfvm7fCUl5j6fx7j1f6cFHpCn+/0XNYqXy7Auh+WT9mK4fow==" />
+      
+
+      <div class="unit text" data-validate="email" data-required>
+        <label for="user_email">Email</label>
+        <input autofocus="autofocus" type="email" value="" name="user[email]" id="user_email" />
+      </div>
+
+      <div class="actions">
+        <button name="button" type="submit" class="button xl ladda-button" data-style="expand-right">Send instructions</button>
+      </div>
+</form>
+    <div class="devise-links">
+
+    <a data-feedback-mode="contact" href="new#">Contact support</a>
+
+
+</div>
+
+  </section>
+</div>
+      </main>
+      <footer class="global-footer global-footer-minimal ">
+  <div class="legal">
+    <a href="https://help.slides.com">Help</a>
+    &bull; <a href="../../terms?root=true">Terms</a>
+    &bull; <a href="../../privacy?root=true">Privacy</a>
+    &bull; <span class="copyright">&copy; 2024 Slides, Inc.</span>
+   </div>
+</footer>
+
+    </div> <!--! end of #container -->
+    
+<script>
+	var SLConfig = {"user":{"id":null,"username":null,"name":null,"description":null,"thumbnail_url":"https://www.gravatar.com/avatar/d41d8cd98f00b204e9800998ecf8427e?s=140\u0026d=https%3A%2F%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png","account_type":"default","team_id":null,"settings":null}};
+</script>
+    <script src="https://assets-v2.slid.es/assets/application-be9ee223089c220ec8cbe773c8121b17e106fec60033573ae2c264490cf4ed38.js" defer="defer"></script>
+    
+    <script>
+UserVoice=window.UserVoice||[];(function(){var uv=document.createElement('script');uv.type='text/javascript';uv.async=true;uv.src='//widget.uservoice.com/f7sH7NavrjjvuGxByaw.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(uv,s)})();
+
+UserVoice.push(['set', {
+  accent_color: '#448dd6',
+  trigger_color: 'white',
+  trigger_background_color: 'rgba(46, 49, 51, 0.6)',
+  position: 'automatic'
+}]);
+
+</script>
+
+  </body>
+</html>

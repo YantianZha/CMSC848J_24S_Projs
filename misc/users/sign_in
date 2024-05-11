@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html class="sl-root sessions new devise" data-account=""  lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>Log in | Slides</title>
+    <meta name="description" content="Sign in to your existing Slides account." />
+    <meta name="viewport" content="initial-scale=1.0" />
+
+    <meta name="theme-color" content="#eee" />
+
+    <meta property="og:title" content="Log in | Slides" />
+    <meta property="og:description" content="Sign in to your existing Slides account." />
+    <meta property="og:site_name" content="Slides" />
+    <meta property="og:image" content="https://static.slid.es/logo/slides-logo-495x479.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://slides.com/users/sign_in" />
+    <meta property="fb:app_id" content="146002942236376" />
+
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="msapplication-tap-highlight" content="no" />
+
+    <link rel="icon" href="../favicon.ico">
+    <link rel="canonical" href="sign_in" />
+    <link rel="manifest" href="../manifest.json">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" media="print" onload="this.onload=null;this.removeAttribute('media');" rel="stylesheet" data-application-font="inter">
+<noscript>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" data-application-font="inter">
+</noscript>
+
+    <link rel="stylesheet" media="all" href="https://assets-v2.slid.es/assets/slides/slides-9c25ece2476c8bf5a292aee738b856615560afa562b87317c421312b668451c1.css" />
+    <link rel="stylesheet" media="all" href="https://assets-v2.slid.es/assets/application-8d44c00fad2ed21bf300c56966d1b6e331e5225aa1a3eb451c912e7c0884885e.css" />
+    
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="c79hkLL/114nJ5eLOftynJw2E6oWmUXWpYRQDPm8JJMxAzcktyyj8VFfnFhp7ZbJXIMr5bHyBzrO8NdQpI2FXg==" />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LWVDH9STBJ"></script>
+<script type="text/javascript">
+  if( navigator.doNotTrack !== '1' && !/dnt=1/.test( window.location.search ) ) {
+    window.slidesMeasurementId = 'G-LWVDH9STBJ';
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-LWVDH9STBJ', {
+      page_title: 'sessions-new'
+    });
+
+  }
+</script>
+<script type="text/javascript">
+    !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags getFeatureFlag getFeatureFlagPayload reloadFeatureFlags group updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures getActiveMatchingSurveys getSurveys onSessionId".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+    posthog.init('phc_QkZFJaDCIpVoVE127ePiwD5cyZPo1TPDulbTzPPO9uM',{api_host:'https://us.i.posthog.com'})
+</script>
+
+    
+  </head>
+  <body >
+    
+    <div id="container" class="container">
+      
+
+<header class="global-header global-header-small ">
+  <div class="wrapper">
+    <div class="slides-logo logo-animation">
+      <a class="symbol" href="../index.html" aria-label="Click the Slides logo to go to the homepage">
+        <div class="box-1"></div>
+        <div class="box-2"></div>
+        <div class="box-3"></div>
+      </a>
+      <a class="word dark" href="../index.html"></a>
+    </div>
+    <div class="nav-wrapper">
+      <ul class="nav">
+          <li class="nav-item nav-item-outline" data-page-id="static/pricing">
+            <a class="nav-item-anchor" href="../decks/fork/1758178"><span class="nav-item-label">Sign up</span></a>
+          </li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+
+      
+      <main id="main" class="main " role="main">
+        
+<div class="column thin">
+  <hgroup class="marketing-intro">
+    <h2>Welcome back!</h2>
+    <h3>Let's get you signed in</h3>
+  </hgroup>
+
+  
+
+  <section class="auth">
+    <div class="auth-options">
+      <div class="auth-option oauth">
+          <form class="oauth-form" method="post" action="https://slides.com/users/auth/facebook"><button class="auth-button facebook" type="submit">
+  <span class="auth-icon"></span>
+  <span class="text">Log in with Facebook</span>
+</button><input type="hidden" name="authenticity_token" value="4+ztmbRlW8lTgRCnq7etvEEFZINEHKJJm9MOo7aEnkOhULstsbYvZiX5G3T7oUnpgbBczON34KXwp4n/67U/jg==" /></form><form class="oauth-form" method="post" action="https://slides.com/users/auth/google_oauth2"><button class="auth-button google" type="submit">
+  <span class="auth-icon"></span>
+  <span class="text">Log in with Google</span>
+</button><input type="hidden" name="authenticity_token" value="y/rnAgHtJp3nDsA6Az+rqUhWISdvvMZwrCniIIRiP62JRrG2BD5SMpF2y+lTKU/8iOMZaMjXhJzHXWV82VOeYA==" /></form>
+      </div>
+      <div class="auth-divider"></div>
+      <div class="auth-option">
+        <form class="new_user" id="new_user" action="sign_in" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="Ek8DWi/aoZlJF+HOreHV4mXABtREJ+REJBRyM7RXV9JQ81XuKgnVNj9v6h399zG3pXU+m+NMpqhPYPVv6Wb2Hw==" />
+          <div class="unit text label-placeholder trim" data-validate="email" data-required>
+            <input required="required" autofocus="autofocus" type="text" value="" name="user[email]" id="user_email" />
+            <label for="user_email">Email</label>
+          </div>
+
+          <div class="unit text label-placeholder" data-validate="password" data-required>
+            <input required="required" type="password" name="user[password]" id="user_password" />
+            <label for="user_password">Password</label>
+          </div>
+
+            <div class="unit checkbox">
+              <div class="sl-checkbox flush-left">
+                <input name="user[remember_me]" type="hidden" value="0" /><input type="checkbox" value="1" checked="checked" name="user[remember_me]" id="user_remember_me" />
+                <label for="user_remember_me">Remember me</label>
+              </div>
+            </div>
+
+          <div class="actions">
+            <button name="button" type="submit" class="button xl ladda-button" data-style="expand-right">Log in</button>
+          </div>
+</form>      </div>
+      <div class="clear"></div>
+    </div>
+
+    <div class="devise-links">
+    <a href="password/new">Forgot your password?</a>
+
+
+    <a data-feedback-mode="contact" href="sign_in#">Contact support</a>
+
+
+</div>
+
+  </section>
+</div>
+      </main>
+      <footer class="global-footer global-footer-minimal ">
+  <div class="legal">
+    <a href="https://help.slides.com">Help</a>
+    &bull; <a href="../terms?root=true">Terms</a>
+    &bull; <a href="../privacy?root=true">Privacy</a>
+    &bull; <span class="copyright">&copy; 2024 Slides, Inc.</span>
+   </div>
+</footer>
+
+    </div> <!--! end of #container -->
+    
+<script>
+	var SLConfig = {"user":{"id":null,"username":null,"name":null,"description":null,"thumbnail_url":"https://www.gravatar.com/avatar/d41d8cd98f00b204e9800998ecf8427e?s=140\u0026d=https%3A%2F%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png","account_type":"default","team_id":null,"settings":null}};
+</script>
+    <script src="https://assets-v2.slid.es/assets/application-be9ee223089c220ec8cbe773c8121b17e106fec60033573ae2c264490cf4ed38.js" defer="defer"></script>
+    
+    <script>
+UserVoice=window.UserVoice||[];(function(){var uv=document.createElement('script');uv.type='text/javascript';uv.async=true;uv.src='//widget.uservoice.com/f7sH7NavrjjvuGxByaw.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(uv,s)})();
+
+UserVoice.push(['set', {
+  accent_color: '#448dd6',
+  trigger_color: 'white',
+  trigger_background_color: 'rgba(46, 49, 51, 0.6)',
+  position: 'automatic'
+}]);
+
+</script>
+
+  </body>
+</html>

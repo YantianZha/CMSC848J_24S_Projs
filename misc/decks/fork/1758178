@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html class="sl-root static pricing marketing-page" data-account="" data-billing-period=yearly lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>Pricing and Plans | Slides</title>
+    <meta name="description" content="Our flexible plans — ranging from free, to individual paid plans and Team accounts." />
+    <meta name="viewport" content="initial-scale=1.0" />
+
+    <meta name="theme-color" content="#333333" />
+
+    <meta property="og:title" content="Pricing and Plans | Slides" />
+    <meta property="og:description" content="Our flexible plans — ranging from free, to individual paid plans and Team accounts." />
+    <meta property="og:site_name" content="Slides" />
+    <meta property="og:image" content="https://static.slid.es/logo/slides-logo-495x479.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://slides.com/pricing" />
+    <meta property="fb:app_id" content="146002942236376" />
+
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="msapplication-tap-highlight" content="no" />
+
+    <link rel="icon" href="../../favicon.ico">
+    <link rel="canonical" href="1758178" />
+    <link rel="manifest" href="../../manifest.json">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" media="print" onload="this.onload=null;this.removeAttribute('media');" rel="stylesheet" data-application-font="inter">
+<noscript>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" data-application-font="inter">
+</noscript>
+
+    <link rel="stylesheet" media="all" href="https://assets-v2.slid.es/assets/slides/slides-9c25ece2476c8bf5a292aee738b856615560afa562b87317c421312b668451c1.css" />
+    <link rel="stylesheet" media="all" href="https://assets-v2.slid.es/assets/application-8d44c00fad2ed21bf300c56966d1b6e331e5225aa1a3eb451c912e7c0884885e.css" />
+    
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="o80s0oBsL4IiGh4otjdlVIooxYfXWjIS2F/hoPstTn3hcXpmhb9bLVRiFfvmIYEBSp39yHAxcP6zK2b8phzvsA==" />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LWVDH9STBJ"></script>
+<script type="text/javascript">
+  if( navigator.doNotTrack !== '1' && !/dnt=1/.test( window.location.search ) ) {
+    window.slidesMeasurementId = 'G-LWVDH9STBJ';
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-LWVDH9STBJ', {
+      page_title: 'static-pricing'
+    });
+
+  }
+</script>
+<script type="text/javascript">
+    !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags getFeatureFlag getFeatureFlagPayload reloadFeatureFlags group updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures getActiveMatchingSurveys getSurveys onSessionId".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+    posthog.init('phc_QkZFJaDCIpVoVE127ePiwD5cyZPo1TPDulbTzPPO9uM',{api_host:'https://us.i.posthog.com'})
+</script>
+
+    
+  </head>
+  <body >
+    
+    <div id="container" class="container">
+      
+
+<header class="global-header fixed dark-bg">
+  <div class="wrapper">
+    <div class="slides-logo logo-animation">
+      <a class="symbol" href="../../index.html" aria-label="Go to the Slides homepage">
+        <div class="box-1"></div>
+        <div class="box-2"></div>
+        <div class="box-3"></div>
+      </a>
+      <a class="word" href="../../index.html" aria-label="Go to the Slides homepage"></a>
+    </div>
+    <div class="nav-wrapper">
+        <ul class="nav nav-full">
+          <li class="nav-item " data-page-id="home/explore">
+            <a class="nav-item-anchor" href="../../explore"><span class="nav-item-label wide">Presentations</span></a>
+          </li>
+          <li class="nav-item " data-page-id="home/templates">
+            <a class="nav-item-anchor" href="../../templates"><span class="nav-item-label wide">Templates</span></a>
+          </li>
+          <li class="nav-item " data-page-id="home/features">
+            <a class="nav-item-anchor" href="../../features"><span class="nav-item-label">Features</span></a>
+          </li>
+          <li class="nav-item " data-page-id="marketing/teams">
+            <a class="nav-item-anchor" href="../../for-teams"><span class="nav-item-label wide">Teams</span></a>
+          </li>
+          <li class="nav-item nav-item-selected" data-page-id="static/pricing">
+            <a class="nav-item-anchor" href="../../pricing?h=1"><span class="nav-item-label">Pricing</span></a>
+          </li>
+          <li class="nav-item-divider hide-in-overlay-menu"></li>
+          <li class="nav-item hide-in-overlay-menu" data-page-id="sessions/new">
+            <a class="nav-item-anchor" href="../../users/sign_in"><span class="nav-item-label">Log in</span></a>
+          </li>
+          <li class="nav-item hide-in-overlay-menu ">
+            <a class="nav-item-anchor" href="1758178"><span class="nav-item-label">Sign up</span></a>
+          </li>
+        </ul>
+        <ul class="nav nav-compact">
+          <li class="nav-item" data-page-id="sessions/new">
+            <a class="nav-item-anchor" href="../../users/sign_in"><span class="nav-item-label">Log in</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-item-anchor" href="1758178"><span class="nav-item-label">Sign up</span></a>
+          </li>
+          <li class="nav-item menu-button nav-item-highlighted">
+            <button class="nav-item-anchor">
+              <span class="nav-item-label wide">Menu</span>
+              <svg class="menu-arrow" viewBox="0 0 20 20" width="18" height="18" style="vertical-align: middle;">
+                <path fill="currentColor" d="M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747 3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0 1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787 0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17 0-1.615z"></path>
+              </svg>
+            </button>
+          </li>
+        </ul>
+    </div>
+  </div>
+</header>
+
+
+      
+      <div class="flash-notification" id="flash_notice" data-notification-type="">
+      <p>Please create an account to use this template.</p>
+    </div>
+
+
+      <main id="main" class="main " role="main">
+        
+
+
+
+<section class="pricing-header marketing-section flat-space padding-s">
+	<div class="pricing-header-inner">
+		<div class="pricing-header-left"></div>
+		<div class="pricing-header-mid">
+			<hgroup class="marketing-intro">
+				<h2>Select a plan</h2>
+			</hgroup>
+			<div class="billing-period">
+	            <input type="radio" name="billing-period" value="yearly" id="yearly" checked>
+	            <label for="yearly" class="focus-outline">Annual billing <span class="discount">&mdash; save over 25%!</span></label>
+
+	            <input type="radio" name="billing-period" value="monthly" id="monthly" >
+	            <label for="monthly" class="focus-outline">Monthly billing</label>
+	        </div>
+		</div>
+		<a class="pricing-header-right" href="../../users/sign_up?plan=free">
+			<div class="free-tier free-tier-collapsed">
+				<h3 class="title">Free plan <span class="icon i-chevron-right"></span></h3>
+			</div>
+			<div class="free-tier free-tier-expanded">
+				<h3 class="title">Sign up for a Free account <span class="icon i-chevron-right"></span></h3>
+				<p class="description">
+					Your content will be <strong>publicly viewable</strong>, searchable and may include ads. You can create <strong>5 decks</strong> with a <strong>250 MB</strong> storage limit.
+				</p>
+			</div>
+			<div class="free-tier free-tier-mobile">
+				<h3 class="title">Free plan <span class="icon i-chevron-right"></span></h3>
+				<p class="description">
+					Sign up for a free account. Your content will be <strong>publicly viewable</strong>, searchable and may include ads. You can create <strong>5 decks</strong> with a <strong>250 MB</strong> storage limit.
+				</p>
+			</div>
+		</a>
+	</div>
+	<svg class="marketing-section-curve" viewBox="0 0 1000 80" height="80" preserveAspectRatio="none">
+	  <path d="M0,0 L 1000,0 1000,80 S 500,0 0,80"></path>
+	</svg>
+</section>
+
+
+<section class="tiers marketing-section">
+
+	<div class="tier lite">
+		<div class="tier-inner">
+			<header>
+				<h3 class="name">Lite</h3>
+
+				<h4 class="price">
+					<span class="sup">$</span>
+					<span class="val pricing-counter" data-yearly-value="5" data-monthly-value="7">
+						<span class="yearly-billing">5</span>
+						<span class="monthly-billing">7</span>
+					</span>
+					<span class="sub">/mo</span>
+				</h4>
+
+				<span class="yearly-billing">
+					<p class="description">
+						<span class="faded fade-in">billed annually</span>
+					</p>
+				</span>
+				<span class="monthly-billing">
+					<p class="description">
+						<span class="faded fade-in">billed monthly</span>
+					</p>
+				</span>
+				<div class="cta">
+					<a href="../../users/sign_up?plan=lite" class="button xl">Select <span class="icon i-chevron-right"></a>
+				</div>
+			</header>
+			<div class="body">
+				<ul>
+					<li class="pricing-bullet two-lines-fixed">
+						<div class="pricing-bullet-label">
+							<strong>Unlimited private decks</strong>
+							<br>
+							No ads on your decks
+						</div>
+						<span class="info" data-tooltip="No ads will be shown next to your decks, and you won't see any ads on slides.com." data-tooltip-maxwidth="240">i</span>
+					</li>
+					<li class="pricing-bullet">
+						<div class="pricing-bullet-label">
+							1 GB storage
+						</div>
+					</li>
+					<li class="pricing-bullet">
+						<div class="pricing-bullet-label">
+							1 collaborator per deck
+						</div>
+						<span class="info" data-tooltip="Invite one person per deck to edit. Unlimited viewers." data-tooltip-maxwidth="230">i</span>
+					</li>
+					<li class="pricing-bullet">
+						<div class="pricing-bullet-label">
+							50 AI requests/month<span class="faded"></span>
+						</div>
+						<span class="info" data-tooltip="Use AI assisted features like copywriting, slide generation and automatic speaker notes up to 50 times per month." data-tooltip-maxwidth="230">i</span>
+					</li>
+					<li class="pricing-bullet">
+						<div class="pricing-bullet-label">
+							Present offline
+						</div>
+						<span class="info" data-tooltip="Download a local copy of any deck." data-tooltip-maxwidth="240">i</span>
+					</li>
+					<li class="pricing-bullet">
+						<div class="pricing-bullet-label">
+							Export to PDF
+						</div>
+						<span class="info" data-tooltip="Easy access to PDF versions of your decks." data-tooltip-maxwidth="230">i</span>
+					</li>
+					<li class="pricing-bullet">
+						<div class="pricing-bullet-label">
+							Upload videos
+						</div>
+						<span class="info" data-tooltip="Upload videos to include in your slides." data-tooltip-maxwidth="230">i</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="tier pro">
+		<div class="tier-inner">
+			<header>
+				<h3 class="name">Pro</h3>
+
+				<h4 class="price">
+					<span class="sup">$</span>
+					<span class="val pricing-counter" data-yearly-value="10" data-monthly-value="14">
+						<span class="yearly-billing">10</span>
+						<span class="monthly-billing">14</span>
+					</span>
+					<span class="sub">/mo</span>
+				</h4>
+
+				<span class="yearly-billing">
+					<p class="description">
+						<span class="faded fade-in">billed annually</span>
+					</p>
+				</span>
+				<span class="monthly-billing">
+					<p class="description">
+						<span class="faded fade-in">billed monthly</span>
+					</p>
+				</span>
+				<div class="cta">
+					<a href="../../users/sign_up?plan=pro" class="button xl">Select <span class="icon i-chevron-right"></a>
+				</div>
+			</header>
+			<div class="body">
+				<ul>
+					<li class="pricing-bullet two-lines-fixed">
+						<div class="pricing-bullet-label">
+							<strong>Unlimited private decks</strong>
+							<br>
+							No ads on your decks
+						</div>
+						<span class="info" data-tooltip="No ads will be shown next to your decks, and you won't see any ads on slides.com." data-tooltip-maxwidth="240">i</span>
+					</li>
+					<li class="pricing-bullet">
+						<div class="pricing-bullet-label">
+							Unlimited storage
+						</div>
+					</li>
+					<li class="pricing-bullet">
+						<div class="pricing-bullet-label">
+							3 collaborators per deck
+						</div>
+						<span class="info" data-tooltip="Invite up to three people per deck to edit. Unlimited viewers." data-tooltip-maxwidth="230">i</span>
+					</li>
+					<li class="pricing-bullet">
+						<div class="pricing-bullet-label">
+							400 AI requests/month<span class="faded"></span>
+						</div>
+						<span class="info" data-tooltip="Use AI assisted features like copywriting, slide generation and automatic speaker notes up to 400 times per month." data-tooltip-maxwidth="230">i</span>
+					</li>
+					<li class="pricing-bullet">
+						<div class="pricing-bullet-label">
+							Present offline
+						</div>
+						<span class="info" data-tooltip="Download a local copy of any deck." data-tooltip-maxwidth="240">i</span>
+					</li>
+					<li class="pricing-bullet">
+						<div class="pricing-bullet-label">
+							Export to PDF
+						</div>
+						<span class="info" data-tooltip="Easy access to PDF versions of your decks." data-tooltip-maxwidth="230">i</span>
+					</li>
+					<li class="pricing-bullet">
+						<div class="pricing-bullet-label">
+							Upload videos
+						</div>
+						<span class="info" data-tooltip="Upload videos to include in your slides." data-tooltip-maxwidth="230">i</span>
+					</li>
+					<li class="pricing-bullet">
+						<div class="pricing-bullet-label">
+							Private sharing
+						</div>
+						<span class="info" data-tooltip="Share your private decks with select parties only." data-tooltip-maxwidth="230">i</span>
+					</li>
+					<li class="pricing-bullet">
+						<div class="pricing-bullet-label">
+							Sync to Dropbox
+						</div>
+						<span class="info" data-tooltip="Automatically sync all of your work on Slides to Dropbox for backups and offline access." data-tooltip-maxwidth="230">i</span>
+					</li>
+					<li class="pricing-bullet">
+						<div class="pricing-bullet-label">
+							Custom CSS
+						</div>
+						<span class="info" data-tooltip="Gain access to the CSS editor and complete control over your deck's look and feel." data-tooltip-maxwidth="230">i</span>
+					</li>
+					<li class="pricing-bullet">
+						<div class="pricing-bullet-label">
+							Google Analytics
+						</div>
+						<span class="info" data-tooltip="Learn which of your decks that are performing well and who's viewing them." data-tooltip-maxwidth="230">i</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="tier team">
+		<div class="tier-inner">
+			<header>
+				<h3 class="name">Team</h3>
+
+				<h4 class="price">
+					<span class="sup">$</span>
+					<span class="val pricing-counter" data-yearly-value="20" data-monthly-value="28">
+						<span class="yearly-billing">20</span>
+						<span class="monthly-billing">28</span>
+					</span>
+					<span class="sub">/mo</span>
+				</h4>
+
+				<span class="yearly-billing">
+					<p class="description">
+						<span class="faded fade-in">billed annually &bull; includes 2 users</span>
+					</p>
+				</span>
+				<span class="monthly-billing">
+					<p class="description">
+						<span class="faded fade-in">billed monthly &bull; includes 2 users</span>
+					</p>
+				</span>
+				<div class="cta">
+					<a href="../../teams/new" class="button xl">Select <span class="icon i-chevron-right"></a>
+				</div>
+			</header>
+			<div class="body">
+				<ul>
+					<li class="pricing-bullet two-lines-fixed">
+						<div class="pricing-bullet-label">
+							<strong>Includes everything in Pro for 2 users</strong>
+							<br>
+							Add more users anytime for $<span class="pricing-counter" data-yearly-value="10" data-monthly-value="14">
+								<span class="yearly-billing">10</span>
+								<span class="monthly-billing">14</span>
+							</span>/mo
+						</div>
+						<span class="info" data-tooltip-maxwidth="250" data-tooltip="You can easily add or remove users as your needs change.">i</span>
+					</li>
+					<li class="pricing-bullet">
+						<div class="pricing-bullet-label">
+							Unlimited storage
+						</div>
+					</li>
+					<li class="pricing-bullet">
+						<div class="pricing-bullet-label">
+							Unlimited deck collaborators
+						</div>
+						<span class="info" data-tooltip-maxwidth="250" data-tooltip="Team members can invite any number of collaborators to edit or give feedback on individual decks.">i</span>
+					</li>
+					<li class="pricing-bullet">
+						<div class="pricing-bullet-label">
+							400 AI requests/month<span class="faded"></span>
+						</div>
+						<span class="info" data-tooltip="Use AI assisted features like copywriting, slide generation and automatic speaker notes up to 400 times per month." data-tooltip-maxwidth="230">i</span>
+					</li>
+					<li class="pricing-bullet">
+						<div class="pricing-bullet-label">
+							Single sign-on with Google
+						</div>
+						<span class="info" data-tooltip-maxwidth="230" data-tooltip="New team members can join with 1-click for additional security and easier account management.">i</span>
+					</li>
+					<li class="pricing-bullet">
+						<div class="pricing-bullet-label">
+							Custom branding & subdomain
+						</div>
+						<span class="info" data-tooltip-maxwidth="270" data-tooltip="Your team is accessible from a custom subdomain, like acme.slides.com. Slides branding is replaced with your own.">i</span>
+					</li>
+					<li class="pricing-bullet">
+						<div class="pricing-bullet-label">
+							Theme editor
+						</div>
+						<span class="info" data-tooltip-maxwidth="270" data-tooltip="Gain access to a fully fledged theme editor including support for custom CSS, HTML, color palettes and more. <br><br>Themes you create are available for all team members, and you can select which theme they should use by default.">i</span>
+					</li>
+					<li class="pricing-bullet">
+						<div class="pricing-bullet-label">
+							Shared media library
+						</div>
+						<span class="info" data-tooltip-maxwidth="230" data-tooltip="Your team has access to a shared media library. Perfect for sharing company logos, icon sets and other important assets.">i</span>
+					</li>
+					<li class="pricing-bullet">
+						<div class="pricing-bullet-label">
+							Shared slide templates
+						</div>
+						<span class="info" data-tooltip-maxwidth="230" data-tooltip="Share a library of custom slide templates with your team.">i</span>
+					</li>
+					<li class="pricing-bullet">
+						<div class="pricing-bullet-label">
+							Clone each other's decks
+						</div>
+						<span class="info" data-tooltip-maxwidth="230" data-tooltip="All team members can clone each other's decks. This is great for sharing consistent templates.">i</span>
+					</li>
+					<li class="pricing-bullet">
+						<div class="pricing-bullet-label">
+							Priority support
+						</div>
+						<span class="info" data-tooltip-maxwidth="230" data-tooltip="Support requests from members of your team will have highest priority.">i</span>
+					</li>
+					<li class="pricing-bullet">
+						<div class="pricing-bullet-label">
+							Google Analytics
+						</div>
+						<span class="info" data-tooltip="Learn which of your team's decks that are performing well and who's viewing them." data-tooltip-maxwidth="230">i</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="tier enterprise">
+		<div class="tier-inner">
+			<header>
+				<h3 class="name">Custom plan</h3>
+				<p class="description">
+					Slides is great for organizations of all sizes. If your use case doesn't align with our listed plans, please get in touch to inquire about a custom tailored plan or quote.
+				</p>
+				<div class="cta">
+					<a href="mailto:support@slides.com?subject=Enterprise" class="button xl">Contact us <span class="icon i-chevron-right"></span></a>
+				</div>
+			</header>
+		</div>
+	</div>
+
+</section>
+
+<div class="sl-text-grid" id="faq">
+  <div class="cell">
+    <h3>Are payments secure?</h3>
+    <p>Payments are processed using <a href="https://stripe.com/" target="_blank">Stripe</a>. <a href="https://stripe.com/help/security#encryption" target="_blank">Industry standard encryption</a> is used to ensure that your details never end up in the wrong hands.</p>
+  </div>
+  <div class="cell">
+    <h3>Can I cancel at any time?</h3>
+    <p>Yes – you can downgrade from a paid plan to Free at any time. You’ll remain upgraded for the days that you have already paid for.</p>
+  </div>
+  <div class="cell">
+    <h3>Do you offer refunds?</h3>
+    <p>If you're unsatisfied with your upgrade, please <a href="1758178#" data-feedback-mode="contact">let us know</a> why within a few days of subscribing and we'll issue a full refund.</p>
+  </div>
+  <div class="cell">
+    <h3>Do you offer discounts?</h3>
+    <p>The yearly plan comes with a discount. We do not offer any other discounts at this time.</p>
+  </div>
+  <div class="cell">
+    <h3>What do I need to use Slides?</h3>
+    <p>All you need is an internet connection and a modern web browser such as the most recent versions of Chrome, Firefox or Safari.</p>
+  </div>
+  <div class="cell">
+    <h3>One more question...</h3>
+    <p>Feel free to <a href="1758178#" data-feedback-mode="contact">contact us</a> with any other questions and we'll make sure to get back to you as soon as we can.</p>
+  </div>
+</div>
+
+      </main>
+      <footer class="global-footer global-footer-minimal ">
+  <div class="legal">
+    <a href="https://help.slides.com">Help</a>
+    &bull; <a href="../../terms?root=true">Terms</a>
+    &bull; <a href="../../privacy?root=true">Privacy</a>
+    &bull; <span class="copyright">&copy; 2024 Slides, Inc.</span>
+   </div>
+</footer>
+
+    </div> <!--! end of #container -->
+    
+<script>
+	var SLConfig = {};
+</script>
+    <script src="https://assets-v2.slid.es/assets/application-be9ee223089c220ec8cbe773c8121b17e106fec60033573ae2c264490cf4ed38.js" defer="defer"></script>
+    
+    <script>
+UserVoice=window.UserVoice||[];(function(){var uv=document.createElement('script');uv.type='text/javascript';uv.async=true;uv.src='//widget.uservoice.com/f7sH7NavrjjvuGxByaw.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(uv,s)})();
+
+UserVoice.push(['set', {
+  accent_color: '#448dd6',
+  trigger_color: 'white',
+  trigger_background_color: 'rgba(46, 49, 51, 0.6)',
+  position: 'automatic'
+}]);
+
+</script>
+
+  </body>
+</html>

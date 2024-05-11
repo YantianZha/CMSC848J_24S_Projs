@@ -1,0 +1,1090 @@
+<!DOCTYPE html>
+<html class="sl-root home explore marketing-page" data-account=""  lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>Explore Presentations | Slides</title>
+    <meta name="description" content="Discover great presentations created by the Slides community." />
+    <meta name="viewport" content="initial-scale=1.0" />
+
+    <meta name="theme-color" content="#705fe5" />
+
+    <meta property="og:title" content="Explore Presentations | Slides" />
+    <meta property="og:description" content="Discover great presentations created by the Slides community." />
+    <meta property="og:site_name" content="Slides" />
+    <meta property="og:image" content="https://static.slid.es/logo/slides-logo-495x479.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://slides.com/explore" />
+    <meta property="fb:app_id" content="146002942236376" />
+
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="msapplication-tap-highlight" content="no" />
+
+    <link rel="icon" href="favicon.ico">
+    <link rel="canonical" href="explore" />
+    <link rel="manifest" href="manifest.json">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" media="print" onload="this.onload=null;this.removeAttribute('media');" rel="stylesheet" data-application-font="inter">
+<noscript>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" data-application-font="inter">
+</noscript>
+
+    <link rel="stylesheet" media="all" href="https://assets-v2.slid.es/assets/slides/slides-9c25ece2476c8bf5a292aee738b856615560afa562b87317c421312b668451c1.css" />
+    <link rel="stylesheet" media="all" href="https://assets-v2.slid.es/assets/application-8d44c00fad2ed21bf300c56966d1b6e331e5225aa1a3eb451c912e7c0884885e.css" />
+    
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="r47JYRUKSfZccqrx1DVb/muydNKYw+w1ZZzI+FWZLU3tMp/VENk9WSoKoSKEI7+rqwdMnT+ortkO6E+kCKiMgA==" />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LWVDH9STBJ"></script>
+<script type="text/javascript">
+  if( navigator.doNotTrack !== '1' && !/dnt=1/.test( window.location.search ) ) {
+    window.slidesMeasurementId = 'G-LWVDH9STBJ';
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-LWVDH9STBJ', {
+      page_title: 'home-explore'
+    });
+
+  }
+</script>
+<script type="text/javascript">
+    !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags getFeatureFlag getFeatureFlagPayload reloadFeatureFlags group updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures getActiveMatchingSurveys getSurveys onSessionId".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+    posthog.init('phc_QkZFJaDCIpVoVE127ePiwD5cyZPo1TPDulbTzPPO9uM',{api_host:'https://us.i.posthog.com'})
+</script>
+
+    
+  </head>
+  <body >
+    
+    <div id="container" class="container">
+      
+
+<header class="global-header fixed">
+  <div class="wrapper">
+    <div class="slides-logo logo-animation">
+      <a class="symbol" href="index.html" aria-label="Go to the Slides homepage">
+        <div class="box-1"></div>
+        <div class="box-2"></div>
+        <div class="box-3"></div>
+      </a>
+      <a class="word" href="index.html" aria-label="Go to the Slides homepage"></a>
+    </div>
+    <div class="nav-wrapper">
+        <ul class="nav nav-full">
+          <li class="nav-item nav-item-selected" data-page-id="home/explore">
+            <a class="nav-item-anchor" href="explore"><span class="nav-item-label wide">Presentations</span></a>
+          </li>
+          <li class="nav-item " data-page-id="home/templates">
+            <a class="nav-item-anchor" href="templates"><span class="nav-item-label wide">Templates</span></a>
+          </li>
+          <li class="nav-item " data-page-id="home/features">
+            <a class="nav-item-anchor" href="features"><span class="nav-item-label">Features</span></a>
+          </li>
+          <li class="nav-item " data-page-id="marketing/teams">
+            <a class="nav-item-anchor" href="for-teams"><span class="nav-item-label wide">Teams</span></a>
+          </li>
+          <li class="nav-item " data-page-id="static/pricing">
+            <a class="nav-item-anchor" href="pricing?h=1"><span class="nav-item-label">Pricing</span></a>
+          </li>
+          <li class="nav-item-divider hide-in-overlay-menu"></li>
+          <li class="nav-item hide-in-overlay-menu" data-page-id="sessions/new">
+            <a class="nav-item-anchor" href="users/sign_in"><span class="nav-item-label">Log in</span></a>
+          </li>
+          <li class="nav-item hide-in-overlay-menu nav-item-highlighted">
+            <a class="nav-item-anchor" href="decks/fork/1758178"><span class="nav-item-label">Sign up</span></a>
+          </li>
+        </ul>
+        <ul class="nav nav-compact">
+          <li class="nav-item" data-page-id="sessions/new">
+            <a class="nav-item-anchor" href="users/sign_in"><span class="nav-item-label">Log in</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-item-anchor" href="decks/fork/1758178"><span class="nav-item-label">Sign up</span></a>
+          </li>
+          <li class="nav-item menu-button nav-item-highlighted">
+            <button class="nav-item-anchor">
+              <span class="nav-item-label wide">Menu</span>
+              <svg class="menu-arrow" viewBox="0 0 20 20" width="18" height="18" style="vertical-align: middle;">
+                <path fill="currentColor" d="M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747 3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0 1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787 0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17 0-1.615z"></path>
+              </svg>
+            </button>
+          </li>
+        </ul>
+    </div>
+  </div>
+</header>
+
+
+      
+      <main id="main" class="main " role="main">
+        
+<section class="marketing-section padding-s purpleink search empty">
+  <form class="search-form" data-search-url=/api/v1/search.json>
+    <div class="search-term-wrapper">
+      <input type="search" class="search-term xl" placeholder="Search for decks...">
+      <div class="button white search-clear">
+        <span class="icon i-close"></span>
+      </div>
+    </div>
+    <button type="submit" class="search-submit button white xl ladda-button" data-style="zoom-out" data-spinner-color="#333">
+      <span class="icon i-search"></span>
+    </button>
+  </form>
+  <!--
+  <div class="search-keywords">
+    <h4>Popular searches</h4>
+    <div class="search-keywords-list">
+      <button class="button outline thin white">react</button>
+      <button class="button outline thin white">animation</button>
+      <button class="button outline thin white">svg</button>
+      <button class="button outline thin white">docker</button>
+    </div>
+  </div>
+  -->
+  <svg class="marketing-section-curve" viewBox="0 0 1000 40" height="40" preserveAspectRatio="none">
+    <path d="M0,0 L 1000,0 S 500,0 0,40"></path>
+  </svg>
+</section>
+
+<section class="marketing-section" style="display: none;"></section>
+
+<section class="marketing-section search-results">
+  <div class="deck-list multiline">
+    <header class="deck-list-header">
+      <p class="search-results-title"></p>
+      <div class="search-results-sorting sl-form">
+        <div class="unit radio">
+          <input type="radio" name="sort-on" value="date" id="date" checked>
+          <label for="date">Most recent</label>
+
+          <input type="radio" name="sort-on" value="views" id="views">
+          <label for="views">Most views</label>
+        </div>
+      </div>
+    </header>
+    <ul class="carousel search-results-list"></ul>
+    <svg class="marketing-section-curve" viewBox="0 0 1000 20" height="20" preserveAspectRatio="none">
+      <path d="M0,0 L 1000,0 1000,20 S 500,20 0,0"></path>
+    </svg>
+  </div>
+</section>
+
+<section class="marketing-section">
+  <div class="deck-list multiline">
+    <h3>Featured Decks</h3>
+    <ul class="carousel">
+      <li class="sl-deck-thumbnail" data-preview-url="/kentcdodds/what-makes-the-web-epic">
+  <a class="deck-link" href="kentcdodds/what-makes-the-web-epic"></a>
+  <div class="deck-thumb">
+      <img class="deck-thumb-image" src="https://media.slid.es/thumbnails/3838d0d9aa8d7344e9546aa763172a7f/thumb.jpg?1712703614" loading="lazy" />
+  </div>
+  <footer class="deck-details">
+    <div class="top">
+      <div class="title">What Makes the Web Epic</div>
+    </div>
+    <div class="bottom">
+      <a class="author" href="https://slides.com/kentcdodds">
+        <span class="picture" style="background-image: url(https://www.gravatar.com/avatar/c1c563b36d23e34002036e1de405f9ca?s=140&amp;d=https%3A%2F%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png)"></span>
+        <span class="name">Kent C. Dodds</span>
+      </a>
+      <div class="stats">
+        <div>451<span class="icon i-eye"></span></div>
+      </div>
+    </div>
+  </footer>
+</li>
+<li class="sl-deck-thumbnail" data-preview-url="/lucianomammino/your-lambdas-in-rust-codemotion-milan-2023">
+  <a class="deck-link" href="lucianomammino/your-lambdas-in-rust-codemotion-milan-2023"></a>
+  <div class="deck-thumb">
+      <img class="deck-thumb-image" src="https://media.slid.es/thumbnails/87d0de10a066d4d9e7a39351f61ebdf6/thumb.jpg?1697613778" loading="lazy" />
+  </div>
+  <footer class="deck-details">
+    <div class="top">
+      <div class="title">Your Lambdas, in Rust - Codemotion Milan 2023</div>
+    </div>
+    <div class="bottom">
+      <a class="author" href="https://slides.com/lucianomammino">
+        <span class="picture" style="background-image: url(https://media.slid.es/avatars/472695/Luciano_picture_cropped.jpg)"></span>
+        <span class="name">Luciano Mammino</span>
+      </a>
+      <div class="stats">
+        <div>3409<span class="icon i-eye"></span></div>
+      </div>
+    </div>
+  </footer>
+</li>
+<li class="sl-deck-thumbnail" data-preview-url="/samuelcolvin/deck-a16632">
+  <a class="deck-link" href="samuelcolvin/deck-a16632"></a>
+  <div class="deck-thumb">
+      <img class="deck-thumb-image" src="https://media.slid.es/thumbnails/015ec80977e11ef4306c818f1a291b04/thumb.jpg?1694019459" loading="lazy" />
+  </div>
+  <footer class="deck-details">
+    <div class="top">
+      <div class="title">FastAPI Berlin | Pydantic &amp; Rust</div>
+    </div>
+    <div class="bottom">
+      <a class="author" href="https://slides.com/samuelcolvin">
+        <span class="picture" style="background-image: url(https://lh6.googleusercontent.com/-rqyyACewbO8/AAAAAAAAAAI/AAAAAAAACSs/npaNvGj5qBA/photo.jpg)"></span>
+        <span class="name">Samuel Colvin</span>
+      </a>
+      <div class="stats">
+        <div>5472<span class="icon i-eye"></span></div>
+      </div>
+    </div>
+  </footer>
+</li>
+<li class="sl-deck-thumbnail" data-preview-url="/mikaelvaivre/deck">
+  <a class="deck-link" href="mikaelvaivre/deck"></a>
+  <div class="deck-thumb">
+      <img class="deck-thumb-image" src="https://media.slid.es/thumbnails/590344adb268b14c42530d932a01bc38/thumb.jpg?1690383014" loading="lazy" />
+  </div>
+  <footer class="deck-details">
+    <div class="top">
+      <div class="title">Alephium UX</div>
+    </div>
+    <div class="bottom">
+      <a class="author" href="https://slides.com/mikaelvaivre">
+        <span class="picture" style="background-image: url(https://lh3.googleusercontent.com/-zuI462tZNhA/AAAAAAAAAAI/AAAAAAAAL1g/xC0uAbl1-Gk/photo.jpg?sz=50)"></span>
+        <span class="name">Mikael Vaivre</span>
+      </a>
+      <div class="stats">
+        <div>3417<span class="icon i-eye"></span></div>
+      </div>
+    </div>
+  </footer>
+</li>
+<li class="sl-deck-thumbnail" data-preview-url="/aleksandrasikora/making-sense-of-programming-languages">
+  <a class="deck-link" href="aleksandrasikora/making-sense-of-programming-languages"></a>
+  <div class="deck-thumb">
+      <img class="deck-thumb-image" src="https://media.slid.es/thumbnails/726ffc2d8c0344373b557a997b54293b/thumb.jpg?1690272585" loading="lazy" />
+  </div>
+  <footer class="deck-details">
+    <div class="top">
+      <div class="title">Making Sense of Programming Languages</div>
+    </div>
+    <div class="bottom">
+      <a class="author" href="https://slides.com/aleksandrasikora">
+        <span class="picture" style="background-image: url(https://lh3.googleusercontent.com/a-/AAuE7mBO1reazoU8GV8FVHjrG-mWmg98yt8dFHbkDsxN)"></span>
+        <span class="name">Aleksandra Sikora</span>
+      </a>
+      <div class="stats">
+        <div>4741<span class="icon i-eye"></span></div>
+      </div>
+    </div>
+  </footer>
+</li>
+<li class="sl-deck-thumbnail" data-preview-url="/kentcdodds/the-epic-stack">
+  <a class="deck-link" href="kentcdodds/the-epic-stack"></a>
+  <div class="deck-thumb">
+      <img class="deck-thumb-image" src="https://media.slid.es/thumbnails/1c4e5d2eed3d7efa90fd0667e5160a1d/thumb.jpg?1698162362" loading="lazy" />
+  </div>
+  <footer class="deck-details">
+    <div class="top">
+      <div class="title">The Epic Stack</div>
+    </div>
+    <div class="bottom">
+      <a class="author" href="https://slides.com/kentcdodds">
+        <span class="picture" style="background-image: url(https://www.gravatar.com/avatar/c1c563b36d23e34002036e1de405f9ca?s=140&amp;d=https%3A%2F%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png)"></span>
+        <span class="name">Kent C. Dodds</span>
+      </a>
+      <div class="stats">
+        <div>3140<span class="icon i-eye"></span></div>
+      </div>
+    </div>
+  </footer>
+</li>
+<li class="sl-deck-thumbnail" data-preview-url="/carmenansio/back-to-the-future-css-edition">
+  <a class="deck-link" href="carmenansio/back-to-the-future-css-edition"></a>
+  <div class="deck-thumb">
+      <img class="deck-thumb-image" src="https://media.slid.es/thumbnails/90e0ca57264727f7d597785917d3e83e/thumb.jpg?1679325222" loading="lazy" />
+  </div>
+  <footer class="deck-details">
+    <div class="top">
+      <div class="title">Back to the future CSS edition</div>
+    </div>
+    <div class="bottom">
+      <a class="author" href="https://slides.com/carmenansio">
+        <span class="picture" style="background-image: url(https://lh6.googleusercontent.com/-0UBfU3aL6Co/AAAAAAAAAAI/AAAAAAAAWAk/tglCL8SGb2w/photo.jpg?sz=50)"></span>
+        <span class="name">Carmen Ansio</span>
+      </a>
+      <div class="stats">
+        <div>3919<span class="icon i-eye"></span></div>
+      </div>
+    </div>
+  </footer>
+</li>
+<li class="sl-deck-thumbnail" data-preview-url="/puppo92/graphgl-with-mercurius-and-prisma-love-at-first-sight">
+  <a class="deck-link" href="puppo92/graphgl-with-mercurius-and-prisma-love-at-first-sight"></a>
+  <div class="deck-thumb">
+      <img class="deck-thumb-image" src="https://media.slid.es/thumbnails/7586b13d4164e89a5eef5d4a85bfa3d3/thumb.jpg?1679915517" loading="lazy" />
+  </div>
+  <footer class="deck-details">
+    <div class="top">
+      <div class="title">GraphGL with Mercurius and Prisma, Love at First Sight</div>
+    </div>
+    <div class="bottom">
+      <a class="author" href="https://slides.com/puppo92">
+        <span class="picture" style="background-image: url(https://media.slid.es/avatars/2260472/ME.jpg)"></span>
+        <span class="name">Luca Del Puppo</span>
+      </a>
+      <div class="stats">
+        <div>2415<span class="icon i-eye"></span></div>
+      </div>
+    </div>
+  </footer>
+</li>
+<li class="sl-deck-thumbnail" data-preview-url="/lucianomammino/building-an-invite-only-microsite-with-nextjs-airtable-reactjs-milano">
+  <a class="deck-link" href="lucianomammino/building-an-invite-only-microsite-with-nextjs-airtable-reactjs-milano"></a>
+  <div class="deck-thumb">
+      <img class="deck-thumb-image" src="https://media.slid.es/thumbnails/72fd077afd254090a1f3990b0f4fff0c/thumb.jpg?1670432593" loading="lazy" />
+  </div>
+  <footer class="deck-details">
+    <div class="top">
+      <div class="title">Building an invite-only microsite with Next.js &amp; Airtable - ReactJS Milano</div>
+    </div>
+    <div class="bottom">
+      <a class="author" href="https://slides.com/lucianomammino">
+        <span class="picture" style="background-image: url(https://media.slid.es/avatars/472695/Luciano_picture_cropped.jpg)"></span>
+        <span class="name">Luciano Mammino</span>
+      </a>
+      <div class="stats">
+        <div>9005<span class="icon i-eye"></span></div>
+      </div>
+    </div>
+  </footer>
+</li>
+<li class="sl-deck-thumbnail" data-preview-url="/gerardsans/learn-to-code-with-chatgpt">
+  <a class="deck-link" href="gerardsans/learn-to-code-with-chatgpt"></a>
+  <div class="deck-thumb">
+      <img class="deck-thumb-image" src="https://media.slid.es/thumbnails/6f6c94c6e21442269ce63c1892f2cca9/thumb.jpg?1674905820" loading="lazy" />
+  </div>
+  <footer class="deck-details">
+    <div class="top">
+      <div class="title">Learn to code with chatGPT</div>
+    </div>
+    <div class="bottom">
+      <a class="author" href="https://slides.com/gerardsans">
+        <span class="picture" style="background-image: url(https://media.slid.es/avatars/345677/E9ye01VWUAkZe1d.jpg)"></span>
+        <span class="name">Gerard Sans</span>
+      </a>
+      <div class="stats">
+        <div>2587<span class="icon i-eye"></span></div>
+      </div>
+    </div>
+  </footer>
+</li>
+<li class="sl-deck-thumbnail" data-preview-url="/lucianomammino/everything-i-know-about-s3-pre-signed-urls">
+  <a class="deck-link" href="lucianomammino/everything-i-know-about-s3-pre-signed-urls"></a>
+  <div class="deck-thumb">
+      <img class="deck-thumb-image" src="https://media.slid.es/thumbnails/45b676c5c303b08dd30723d4fb6dad48/thumb.jpg?1668618364" loading="lazy" />
+  </div>
+  <footer class="deck-details">
+    <div class="top">
+      <div class="title">Everything I know about S3 pre-signed URLs</div>
+    </div>
+    <div class="bottom">
+      <a class="author" href="https://slides.com/lucianomammino">
+        <span class="picture" style="background-image: url(https://media.slid.es/avatars/472695/Luciano_picture_cropped.jpg)"></span>
+        <span class="name">Luciano Mammino</span>
+      </a>
+      <div class="stats">
+        <div>6507<span class="icon i-eye"></span></div>
+      </div>
+    </div>
+  </footer>
+</li>
+<li class="sl-deck-thumbnail" data-preview-url="/noriste/reactjsday-2022">
+  <a class="deck-link" href="noriste/reactjsday-2022"></a>
+  <div class="deck-thumb">
+      <img class="deck-thumb-image" src="https://media.slid.es/thumbnails/ae4ec4cfe905fead26f53500c17d9ab3/thumb.jpg?1665837403" loading="lazy" />
+  </div>
+  <footer class="deck-details">
+    <div class="top">
+      <div class="title">How do I avoid the next developer reading my code swearing at me (ReactJSDay 2022 talk)</div>
+    </div>
+    <div class="bottom">
+      <a class="author" href="https://slides.com/noriste">
+        <span class="picture" style="background-image: url(https://media.slid.es/avatars/916090/ste.jpg)"></span>
+        <span class="name">Stefano Magni</span>
+      </a>
+      <div class="stats">
+        <div>6073<span class="icon i-eye"></span></div>
+      </div>
+    </div>
+  </footer>
+</li>
+<li class="sl-deck-thumbnail" data-preview-url="/nilsroehrig/living-on-the-edge-code-talks-22">
+  <a class="deck-link" href="nilsroehrig/living-on-the-edge-code-talks-22"></a>
+  <div class="deck-thumb">
+      <img class="deck-thumb-image" src="https://media.slid.es/thumbnails/d5e9f4ec7e518ff8952d961d65ee5026/thumb.jpg?1663312921" loading="lazy" />
+  </div>
+  <footer class="deck-details">
+    <div class="top">
+      <div class="title">Living on the Edge (code.talks 2022)</div>
+    </div>
+    <div class="bottom">
+      <a class="author" href="https://slides.com/nilsroehrig">
+        <span class="picture" style="background-image: url(https://lh3.googleusercontent.com/a-/AOh14GjAfa7J8b4ViKXI4_E77lJ5i7RzKtlzwrPPKqDlZQ)"></span>
+        <span class="name">Nils Röhrig</span>
+      </a>
+      <div class="stats">
+        <div>5356<span class="icon i-eye"></span></div>
+      </div>
+    </div>
+  </footer>
+</li>
+<li class="sl-deck-thumbnail" data-preview-url="/ahmedbesbes/spacy">
+  <a class="deck-link" href="ahmedbesbes/spacy"></a>
+  <div class="deck-thumb">
+      <img class="deck-thumb-image" src="https://media.slid.es/thumbnails/7f98aa8bf87fdf05e3cad4c5d3d185b5/thumb.jpg?1662834499" loading="lazy" />
+  </div>
+  <footer class="deck-details">
+    <div class="top">
+      <div class="title">How to scale and improve your NLP pipelines with spaCy.</div>
+    </div>
+    <div class="bottom">
+      <a class="author" href="https://slides.com/ahmedbesbes">
+        <span class="picture" style="background-image: url(https://graph.facebook.com/v2.6/10210562698455905/picture)"></span>
+        <span class="name">Ahmed Besbes</span>
+      </a>
+      <div class="stats">
+        <div>6962<span class="icon i-eye"></span></div>
+      </div>
+    </div>
+  </footer>
+</li>
+<li class="sl-deck-thumbnail" data-preview-url="/cassiecodes/deck-1daeae">
+  <a class="deck-link" href="cassiecodes/deck-1daeae"></a>
+  <div class="deck-thumb">
+      <img class="deck-thumb-image" src="https://media.slid.es/thumbnails/5895bb08770435f8ff986a4484db9c79/thumb.jpg?1663319288" loading="lazy" />
+  </div>
+  <footer class="deck-details">
+    <div class="top">
+      <div class="title">deck</div>
+    </div>
+    <div class="bottom">
+      <a class="author" href="https://slides.com/cassiecodes">
+        <span class="picture" style="background-image: url(https://www.gravatar.com/avatar/8c8902edd69754c7650f9ce03c1e2956?s=140&amp;d=https%3A%2F%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png)"></span>
+        <span class="name">Cassie Evans</span>
+      </a>
+      <div class="stats">
+        <div>19.3k<span class="icon i-eye"></span></div>
+      </div>
+    </div>
+  </footer>
+</li>
+<li class="sl-deck-thumbnail" data-preview-url="/akryum/vue-amsterdam-histoire">
+  <a class="deck-link" href="akryum/vue-amsterdam-histoire"></a>
+  <div class="deck-thumb">
+      <img class="deck-thumb-image" src="https://media.slid.es/thumbnails/a778fc26ee5ee2363d1ec7ac106f3502/thumb.jpg?1654122967" loading="lazy" />
+  </div>
+  <footer class="deck-details">
+    <div class="top">
+      <div class="title">Histoire - Vue.js Amsterdam</div>
+    </div>
+    <div class="bottom">
+      <a class="author" href="https://slides.com/akryum">
+        <span class="picture" style="background-image: url(https://www.gravatar.com/avatar/f826f55090b8b2ff77c469a87d8bbe78?s=140&amp;d=https%3A%2F%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png)"></span>
+        <span class="name">Guillaume Chau</span>
+      </a>
+      <div class="stats">
+        <div>8947<span class="icon i-eye"></span></div>
+      </div>
+    </div>
+  </footer>
+</li>
+<li class="sl-deck-thumbnail" data-preview-url="/ceceliamartinez/debugging-react-apps-workshop">
+  <a class="deck-link" href="ceceliamartinez/debugging-react-apps-workshop"></a>
+  <div class="deck-thumb">
+      <img class="deck-thumb-image" src="https://media.slid.es/thumbnails/9d5a20a871b5d577c17460f149e6514e/thumb.jpg?1654086882" loading="lazy" />
+  </div>
+  <footer class="deck-details">
+    <div class="top">
+      <div class="title">Debugging React Applications Workshop</div>
+    </div>
+    <div class="bottom">
+      <a class="author" href="https://slides.com/ceceliamartinez">
+        <span class="picture" style="background-image: url(https://lh3.googleusercontent.com/a-/AOh14GjajCjIAa7TOvEedy9tYo2ixtDuWqmx-ORub6r48g=s96-c)"></span>
+        <span class="name">Cecelia Martinez</span>
+      </a>
+      <div class="stats">
+        <div>6154<span class="icon i-eye"></span></div>
+      </div>
+    </div>
+  </footer>
+</li>
+<li class="sl-deck-thumbnail" data-preview-url="/gaborhojtsy/state-of-drupal-10-readiness-june-1-2022">
+  <a class="deck-link" href="gaborhojtsy/state-of-drupal-10-readiness-june-1-2022"></a>
+  <div class="deck-thumb">
+      <img class="deck-thumb-image" src="https://media.slid.es/thumbnails/3c21930d303b582ae9efb1e24b97ff75/thumb.jpg?1653936362" loading="lazy" />
+  </div>
+  <footer class="deck-details">
+    <div class="top">
+      <div class="title">State of Drupal 10 readiness, June 1, 2022</div>
+    </div>
+    <div class="bottom">
+      <a class="author" href="https://slides.com/gaborhojtsy">
+        <span class="picture" style="background-image: url(https://www.gravatar.com/avatar/9641cc7c238de2409cb0a2c3191a1ba4?s=140&amp;d=https%3A%2F%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png)"></span>
+        <span class="name">Gábor Hojtsy</span>
+      </a>
+      <div class="stats">
+        <div>5028<span class="icon i-eye"></span></div>
+      </div>
+    </div>
+  </footer>
+</li>
+<li class="sl-deck-thumbnail" data-preview-url="/danielkelly-2/patterns-for-large-scale-vue-js-applications-bb89f5">
+  <a class="deck-link" href="danielkelly-2/patterns-for-large-scale-vue-js-applications-bb89f5"></a>
+  <div class="deck-thumb">
+      <img class="deck-thumb-image" src="https://media.slid.es/thumbnails/c57948582c2eaa9b277f4fed079e8090/thumb.jpg?1653513549" loading="lazy" />
+  </div>
+  <footer class="deck-details">
+    <div class="top">
+      <div class="title">Patterns for Large Scale Vue.js Applications (v2)</div>
+    </div>
+    <div class="bottom">
+      <a class="author" href="https://slides.com/danielkelly-2">
+        <span class="picture" style="background-image: url(https://lh3.googleusercontent.com/a/AATXAJzMb38AptGNuDN2hqgwXExFYqYOz4qlVUIC7GnD=s96-c)"></span>
+        <span class="name">Daniel Kelly</span>
+      </a>
+      <div class="stats">
+        <div>2341<span class="icon i-eye"></span></div>
+      </div>
+    </div>
+  </footer>
+</li>
+<li class="sl-deck-thumbnail" data-preview-url="/samuelcolvin/pydantic5">
+  <a class="deck-link" href="samuelcolvin/pydantic5"></a>
+  <div class="deck-thumb">
+      <img class="deck-thumb-image" src="https://media.slid.es/thumbnails/ecd2c24672352aa66e89448d333e92cf/thumb.jpg?1651348514" loading="lazy" />
+  </div>
+  <footer class="deck-details">
+    <div class="top">
+      <div class="title">Pydantic V2</div>
+    </div>
+    <div class="bottom">
+      <a class="author" href="https://slides.com/samuelcolvin">
+        <span class="picture" style="background-image: url(https://lh6.googleusercontent.com/-rqyyACewbO8/AAAAAAAAAAI/AAAAAAAACSs/npaNvGj5qBA/photo.jpg)"></span>
+        <span class="name">Samuel Colvin</span>
+      </a>
+      <div class="stats">
+        <div>6554<span class="icon i-eye"></span></div>
+      </div>
+    </div>
+  </footer>
+</li>
+<li class="sl-deck-thumbnail" data-preview-url="/russtedrake/spring22-lec20">
+  <a class="deck-link" href="russtedrake/spring22-lec20"></a>
+  <div class="deck-thumb">
+      <img class="deck-thumb-image" src="https://media.slid.es/thumbnails/f066fbd2f4d799f2135ee57dccf20dea/thumb.jpg?1650565466" loading="lazy" />
+  </div>
+  <footer class="deck-details">
+    <div class="top">
+      <div class="title">Lecture 20: Motion planning as search II</div>
+    </div>
+    <div class="bottom">
+      <a class="author" href="https://slides.com/russtedrake">
+        <span class="picture" style="background-image: url(https://www.gravatar.com/avatar/97e60f1ecb0b7d8f7238a4e92944e370?s=140&amp;d=https%3A%2F%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png)"></span>
+        <span class="name">russtedrake</span>
+      </a>
+      <div class="stats">
+        <div>5732<span class="icon i-eye"></span></div>
+      </div>
+    </div>
+  </footer>
+</li>
+<li class="sl-deck-thumbnail" data-preview-url="/mkutz/measure-quality">
+  <a class="deck-link" href="mkutz/measure-quality"></a>
+  <div class="deck-thumb">
+      <img class="deck-thumb-image" src="https://media.slid.es/thumbnails/e50ece515d6401eae1aa677a84467ee5/thumb.jpg?1715087578" loading="lazy" />
+  </div>
+  <footer class="deck-details">
+    <div class="top">
+      <div class="title">How (Not) to Measure Quality</div>
+    </div>
+    <div class="bottom">
+      <a class="author" href="https://slides.com/mkutz">
+        <span class="picture" style="background-image: url(https://lh5.googleusercontent.com/-pskzeEsdRMA/AAAAAAAAAAI/AAAAAAAAHAA/nN6uYk2H7oo/photo.jpg)"></span>
+        <span class="name">Michael Kutz</span>
+      </a>
+      <div class="stats">
+        <div>5633<span class="icon i-eye"></span></div>
+      </div>
+    </div>
+  </footer>
+</li>
+<li class="sl-deck-thumbnail" data-preview-url="/russtedrake/spring22-lec01">
+  <a class="deck-link" href="russtedrake/spring22-lec01"></a>
+  <div class="deck-thumb">
+      <img class="deck-thumb-image" src="https://media.slid.es/thumbnails/bc1fbd6cbf91c0d65dc5f84960b22fd9/thumb.jpg?1643727184" loading="lazy" />
+  </div>
+  <footer class="deck-details">
+    <div class="top">
+      <div class="title">Lecture 1: Welcome to Underactuated Robotics</div>
+    </div>
+    <div class="bottom">
+      <a class="author" href="https://slides.com/russtedrake">
+        <span class="picture" style="background-image: url(https://www.gravatar.com/avatar/97e60f1ecb0b7d8f7238a4e92944e370?s=140&amp;d=https%3A%2F%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png)"></span>
+        <span class="name">russtedrake</span>
+      </a>
+      <div class="stats">
+        <div>6327<span class="icon i-eye"></span></div>
+      </div>
+    </div>
+  </footer>
+</li>
+<li class="sl-deck-thumbnail" data-preview-url="/fitzy/fonts-lca2022">
+  <a class="deck-link" href="https://slides.com/fitzy/fonts-lca2022"></a>
+  <div class="deck-thumb">
+      <img class="deck-thumb-image" src="https://media.slid.es/thumbnails/4dd2ff9115160982ca9f1ed2a48b34a1/thumb.jpg?1698319459" loading="lazy" />
+  </div>
+  <footer class="deck-details">
+    <div class="top">
+      <div class="title">fonts</div>
+    </div>
+    <div class="bottom">
+      <a class="author" href="https://slides.com/fitzy">
+        <span class="picture" style="background-image: url(https://www.gravatar.com/avatar/2b4cb77f5521f1c3e01f794ffead659b?s=140&amp;d=https%3A%2F%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png)"></span>
+        <span class="name">fitzy</span>
+      </a>
+      <div class="stats">
+        <div>9728<span class="icon i-eye"></span></div>
+      </div>
+    </div>
+  </footer>
+</li>
+<li class="sl-deck-thumbnail" data-preview-url="/maartenzam/cimat-svelte">
+  <a class="deck-link" href="maartenzam/cimat-svelte"></a>
+  <div class="deck-thumb">
+      <img class="deck-thumb-image" src="https://media.slid.es/thumbnails/7f9f650647850c982d721dd31bb0d2b7/thumb.jpg?1636617551" loading="lazy" />
+  </div>
+  <footer class="deck-details">
+    <div class="top">
+      <div class="title">Dataviz journey</div>
+    </div>
+    <div class="bottom">
+      <a class="author" href="https://slides.com/maartenzam">
+        <span class="picture" style="background-image: url(https://www.gravatar.com/avatar/1895114d99a31bac6538964e86121806?s=140&amp;d=https%3A%2F%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png)"></span>
+        <span class="name">maartenzam</span>
+      </a>
+      <div class="stats">
+        <div>6160<span class="icon i-eye"></span></div>
+      </div>
+    </div>
+  </footer>
+</li>
+<li class="sl-deck-thumbnail" data-preview-url="/webmax/angular-status-13">
+  <a class="deck-link" href="webmax/angular-status-13"></a>
+  <div class="deck-thumb">
+      <img class="deck-thumb-image" src="https://media.slid.es/thumbnails/c070e8d62889ad7a202a5ca355e7326d/thumb.jpg?1622539357" loading="lazy" />
+  </div>
+  <footer class="deck-details">
+    <div class="top">
+      <div class="title">The Status of Angular</div>
+    </div>
+    <div class="bottom">
+      <a class="author" href="https://slides.com/webmax">
+        <span class="picture" style="background-image: url(https://www.gravatar.com/avatar/4ed4c679b99e90592f2ad560c76474f4?s=140&amp;d=https%3A%2F%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png)"></span>
+        <span class="name">Maxim Salnikov</span>
+      </a>
+      <div class="stats">
+        <div>11.7k<span class="icon i-eye"></span></div>
+      </div>
+    </div>
+  </footer>
+</li>
+<li class="sl-deck-thumbnail" data-preview-url="/lrlna/nodeconfeu-2020">
+  <a class="deck-link" href="lrlna/nodeconfeu-2020"></a>
+  <div class="deck-thumb">
+      <img class="deck-thumb-image" src="https://media.slid.es/thumbnails/ffb8156f3591216e174822a242962a8d/thumb.jpg?1634125854" loading="lazy" />
+  </div>
+  <footer class="deck-details">
+    <div class="top">
+      <div class="title">Packaging a Node.js Binary for a platform or two (or three??), NodeConf Remote 2020</div>
+    </div>
+    <div class="bottom">
+      <a class="author" href="https://slides.com/lrlna">
+        <span class="picture" style="background-image: url(https://www.gravatar.com/avatar/3ef9e804cd904d82f5453d834e6a26dd?s=140&amp;d=https%3A%2F%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png)"></span>
+        <span class="name">Irina Shestak</span>
+      </a>
+      <div class="stats">
+        <div>8161<span class="icon i-eye"></span></div>
+      </div>
+    </div>
+  </footer>
+</li>
+<li class="sl-deck-thumbnail" data-preview-url="/mathiasarlaud/forum-php-apip-ddd">
+  <a class="deck-link" href="mathiasarlaud/forum-php-apip-ddd"></a>
+  <div class="deck-thumb">
+      <img class="deck-thumb-image" src="https://media.slid.es/thumbnails/13e4fbd8ca2f63ab54396b165b21b22e/thumb.jpg?1634892339" loading="lazy" />
+  </div>
+  <footer class="deck-details">
+    <div class="top">
+      <div class="title">[Forum PHP] DDD &amp; APIP</div>
+    </div>
+    <div class="bottom">
+      <a class="author" href="https://slides.com/mathiasarlaud">
+        <span class="picture" style="background-image: url(https://media.slid.es/avatars/1143980/DSC04076__1___1___2___1_.jpg)"></span>
+        <span class="name">Mathias Arlaud</span>
+      </a>
+      <div class="stats">
+        <div>11.5k<span class="icon i-eye"></span></div>
+      </div>
+    </div>
+  </footer>
+</li>
+<li class="sl-deck-thumbnail" data-preview-url="/andsve/writing-a-nes-emulator">
+  <a class="deck-link" href="andsve/writing-a-nes-emulator"></a>
+  <div class="deck-thumb">
+      <img class="deck-thumb-image" src="https://media.slid.es/thumbnails/d7e7cee9ba1b2e2c6899f11be9e36e78/thumb.jpg?1637247178" loading="lazy" />
+  </div>
+  <footer class="deck-details">
+    <div class="top">
+      <div class="title">Writing a NES emulator</div>
+    </div>
+    <div class="bottom">
+      <a class="author" href="https://slides.com/andsve">
+        <span class="picture" style="background-image: url(https://www.gravatar.com/avatar/66143e6d2e354fa131b414443b11b5c1?s=140&amp;d=https%3A%2F%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png)"></span>
+        <span class="name">Sven Andersson</span>
+      </a>
+      <div class="stats">
+        <div>8104<span class="icon i-eye"></span></div>
+      </div>
+    </div>
+  </footer>
+</li>
+<li class="sl-deck-thumbnail" data-preview-url="/maartenzam/sdg-atlas-future-week">
+  <a class="deck-link" href="maartenzam/sdg-atlas-future-week"></a>
+  <div class="deck-thumb">
+      <img class="deck-thumb-image" src="https://media.slid.es/thumbnails/58b04fdd3c9c44c336ac55f07ef5bf03/thumb.jpg?1632769321" loading="lazy" />
+  </div>
+  <footer class="deck-details">
+    <div class="top">
+      <div class="title">SDG Atlas 2020: making of</div>
+    </div>
+    <div class="bottom">
+      <a class="author" href="https://slides.com/maartenzam">
+        <span class="picture" style="background-image: url(https://www.gravatar.com/avatar/1895114d99a31bac6538964e86121806?s=140&amp;d=https%3A%2F%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png)"></span>
+        <span class="name">maartenzam</span>
+      </a>
+      <div class="stats">
+        <div>6205<span class="icon i-eye"></span></div>
+      </div>
+    </div>
+  </footer>
+</li>
+<li class="sl-deck-thumbnail" data-preview-url="/craigspence/betterer-incremental-improvement-5c1789">
+  <a class="deck-link" href="craigspence/betterer-incremental-improvement-5c1789"></a>
+  <div class="deck-thumb">
+      <img class="deck-thumb-image" src="https://media.slid.es/thumbnails/e59119fcefe1b927d793fbd4a1a879ca/thumb.jpg?1632222003" loading="lazy" />
+  </div>
+  <footer class="deck-details">
+    <div class="top">
+      <div class="title">Betterer: Incremental Improvement - Code Europe</div>
+    </div>
+    <div class="bottom">
+      <a class="author" href="https://slides.com/craigspence">
+        <span class="picture" style="background-image: url(https://graph.facebook.com/10153278451388114/picture)"></span>
+        <span class="name">Craig Spence</span>
+      </a>
+      <div class="stats">
+        <div>7345<span class="icon i-eye"></span></div>
+      </div>
+    </div>
+  </footer>
+</li>
+<li class="sl-deck-thumbnail" data-preview-url="/webmax/angular-workbox-2022">
+  <a class="deck-link" href="webmax/angular-workbox-2022"></a>
+  <div class="deck-thumb">
+      <img class="deck-thumb-image" src="https://media.slid.es/thumbnails/1d6c40736b01b000b9653a8de5d53d69/thumb.jpg?1606940699" loading="lazy" />
+  </div>
+  <footer class="deck-details">
+    <div class="top">
+      <div class="title">Sending the Angular app into deep, deep offline with Workbox</div>
+    </div>
+    <div class="bottom">
+      <a class="author" href="https://slides.com/webmax">
+        <span class="picture" style="background-image: url(https://www.gravatar.com/avatar/4ed4c679b99e90592f2ad560c76474f4?s=140&amp;d=https%3A%2F%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png)"></span>
+        <span class="name">Maxim Salnikov</span>
+      </a>
+      <div class="stats">
+        <div>7597<span class="icon i-eye"></span></div>
+      </div>
+    </div>
+  </footer>
+</li>
+
+    </ul>
+    <svg class="marketing-section-curve" viewBox="0 0 1000 30" height="30" preserveAspectRatio="none">
+      <path d="M0,0 L 1000,0 1000,30 S 500,30 0,0"></path>
+    </svg>
+  </div>
+</section>
+
+<div class="marketing-section cta">
+  <h4 class="create-account-intro">Want to create presentations like these?</h4>
+  <a class="create-account button blue xxl" href="decks/fork/1758178">
+    <span>Start presenting</span>
+  </a>
+  <svg class="marketing-section-curve" viewBox="0 0 1000 30" height="30" preserveAspectRatio="none">
+    <path d="M0,0 L 1000,0 1000,30 S 500,30 0,0"></path>
+  </svg>
+</div>
+
+<section class="marketing-section">
+  <div class="deck-list multiline">
+    <h3>Decks from the Slides Team</h3>
+    <ul class="carousel">
+      <li class="sl-deck-thumbnail" data-preview-url="/news/scroll-mode">
+  <a class="deck-link" href="https://slides.com/news/scroll-mode"></a>
+  <div class="deck-thumb">
+      <img class="deck-thumb-image" src="https://media.slid.es/thumbnails/cf368e552577bf33cf0d82a3367d7beb/thumb.jpg?1698343121" loading="lazy" />
+  </div>
+  <footer class="deck-details">
+    <div class="top">
+      <div class="title">Scroll Mode</div>
+    </div>
+    <div class="bottom">
+      <a class="author" href="https://slides.com/news">
+        <span class="picture" style="background-image: url(https://www.gravatar.com/avatar/bb37442e4cee22621f39ee404d3e96f6?s=140&amp;d=https%3A%2F%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png)"></span>
+        <span class="name">Slides News</span>
+      </a>
+      <div class="stats">
+        <div>2425<span class="icon i-eye"></span></div>
+      </div>
+    </div>
+  </footer>
+</li>
+<li class="sl-deck-thumbnail" data-preview-url="/news/slides-ai">
+  <a class="deck-link" href="news/slides-ai"></a>
+  <div class="deck-thumb">
+      <img class="deck-thumb-image" src="https://media.slid.es/thumbnails/d6906ce13fad0e3164564f51217eaf7e/thumb.jpg?1684746576" loading="lazy" />
+  </div>
+  <footer class="deck-details">
+    <div class="top">
+      <div class="title">Slides AI</div>
+    </div>
+    <div class="bottom">
+      <a class="author" href="https://slides.com/news">
+        <span class="picture" style="background-image: url(https://www.gravatar.com/avatar/bb37442e4cee22621f39ee404d3e96f6?s=140&amp;d=https%3A%2F%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png)"></span>
+        <span class="name">Slides News</span>
+      </a>
+      <div class="stats">
+        <div>45.5k<span class="icon i-eye"></span></div>
+      </div>
+    </div>
+  </footer>
+</li>
+<li class="sl-deck-thumbnail" data-preview-url="/news/live-annotation">
+  <a class="deck-link" href="news/live-annotation"></a>
+  <div class="deck-thumb">
+      <img class="deck-thumb-image" src="https://media.slid.es/thumbnails/7ea58b01e6311d280688a9ee9ae5bc49/thumb.jpg?1649768542" loading="lazy" />
+  </div>
+  <footer class="deck-details">
+    <div class="top">
+      <div class="title">Live Annotation</div>
+    </div>
+    <div class="bottom">
+      <a class="author" href="https://slides.com/news">
+        <span class="picture" style="background-image: url(https://www.gravatar.com/avatar/bb37442e4cee22621f39ee404d3e96f6?s=140&amp;d=https%3A%2F%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png)"></span>
+        <span class="name">Slides News</span>
+      </a>
+      <div class="stats">
+        <div>21.7k<span class="icon i-eye"></span></div>
+      </div>
+    </div>
+  </footer>
+</li>
+<li class="sl-deck-thumbnail" data-preview-url="/news/templates">
+  <a class="deck-link" href="news/templates"></a>
+  <div class="deck-thumb">
+      <img class="deck-thumb-image" src="https://media.slid.es/thumbnails/2e2ac6bf40f0899f009a779c6a2f22fe/thumb.jpg?1639471576" loading="lazy" />
+  </div>
+  <footer class="deck-details">
+    <div class="top">
+      <div class="title">Presentation Templates</div>
+    </div>
+    <div class="bottom">
+      <a class="author" href="https://slides.com/news">
+        <span class="picture" style="background-image: url(https://www.gravatar.com/avatar/bb37442e4cee22621f39ee404d3e96f6?s=140&amp;d=https%3A%2F%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png)"></span>
+        <span class="name">Slides News</span>
+      </a>
+      <div class="stats">
+        <div>15.8k<span class="icon i-eye"></span></div>
+      </div>
+    </div>
+  </footer>
+</li>
+<li class="sl-deck-thumbnail" data-preview-url="/news/drawing">
+  <a class="deck-link" href="https://slides.com/news/drawing"></a>
+  <div class="deck-thumb">
+      <img class="deck-thumb-image" src="https://media.slid.es/thumbnails/0d2ff834b2c8e5c5a09e5dbd13cdaad1/thumb.jpg?1631000575" loading="lazy" />
+  </div>
+  <footer class="deck-details">
+    <div class="top">
+      <div class="title">Freehand Drawing</div>
+    </div>
+    <div class="bottom">
+      <a class="author" href="https://slides.com/news">
+        <span class="picture" style="background-image: url(https://www.gravatar.com/avatar/bb37442e4cee22621f39ee404d3e96f6?s=140&amp;d=https%3A%2F%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png)"></span>
+        <span class="name">Slides News</span>
+      </a>
+      <div class="stats">
+        <div>23k<span class="icon i-eye"></span></div>
+      </div>
+    </div>
+  </footer>
+</li>
+<li class="sl-deck-thumbnail" data-preview-url="/news/filters">
+  <a class="deck-link" href="news/filters"></a>
+  <div class="deck-thumb">
+      <img class="deck-thumb-image" src="https://media.slid.es/thumbnails/c89596a51413923663a162c94769ca3e/thumb.jpg?1606735126" loading="lazy" />
+  </div>
+  <footer class="deck-details">
+    <div class="top">
+      <div class="title">Blur &amp; Shadow</div>
+    </div>
+    <div class="bottom">
+      <a class="author" href="https://slides.com/news">
+        <span class="picture" style="background-image: url(https://www.gravatar.com/avatar/bb37442e4cee22621f39ee404d3e96f6?s=140&amp;d=https%3A%2F%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png)"></span>
+        <span class="name">Slides News</span>
+      </a>
+      <div class="stats">
+        <div>14k<span class="icon i-eye"></span></div>
+      </div>
+    </div>
+  </footer>
+</li>
+<li class="sl-deck-thumbnail" data-preview-url="/news/code-block-2-5">
+  <a class="deck-link" href="news/code-block-2-5"></a>
+  <div class="deck-thumb">
+      <img class="deck-thumb-image" src="https://media.slid.es/thumbnails/fab299d48e24f10ee1dfd531d94b0635/thumb.jpg?1584623450" loading="lazy" />
+  </div>
+  <footer class="deck-details">
+    <div class="top">
+      <div class="title">Code Block 2.5: Scrollable Highlights</div>
+    </div>
+    <div class="bottom">
+      <a class="author" href="https://slides.com/news">
+        <span class="picture" style="background-image: url(https://www.gravatar.com/avatar/bb37442e4cee22621f39ee404d3e96f6?s=140&amp;d=https%3A%2F%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png)"></span>
+        <span class="name">Slides News</span>
+      </a>
+      <div class="stats">
+        <div>14.5k<span class="icon i-eye"></span></div>
+      </div>
+    </div>
+  </footer>
+</li>
+<li class="sl-deck-thumbnail" data-preview-url="/news/auto-animate-code">
+  <a class="deck-link" href="news/auto-animate-code"></a>
+  <div class="deck-thumb">
+      <img class="deck-thumb-image" src="https://media.slid.es/thumbnails/e3dc203feadeac630e53b587ab4e1dfb/thumb.jpg?1591097001" loading="lazy" />
+  </div>
+  <footer class="deck-details">
+    <div class="top">
+      <div class="title">Auto-Animate Code</div>
+    </div>
+    <div class="bottom">
+      <a class="author" href="https://slides.com/news">
+        <span class="picture" style="background-image: url(https://www.gravatar.com/avatar/bb37442e4cee22621f39ee404d3e96f6?s=140&amp;d=https%3A%2F%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png)"></span>
+        <span class="name">Slides News</span>
+      </a>
+      <div class="stats">
+        <div>14.5k<span class="icon i-eye"></span></div>
+      </div>
+    </div>
+  </footer>
+</li>
+
+    </ul>
+    <svg class="marketing-section-curve" viewBox="0 0 1000 20" height="20" preserveAspectRatio="none">
+      <path d="M0,0 L 1000,0 1000,20 S 500,20 0,0"></path>
+    </svg>
+  </div>
+</section>
+
+      </main>
+      <footer class="global-footer ">
+    <div class="global-footer-links">
+      <div class="link-group">
+        <h4>Tour</h4>
+        <a href="explore">Presentations</a>
+        <a href="recent">Trending decks</a>
+        <a href="templates">Templates</a>
+        <a href="features">Features</a>
+        <a href="decks/fork/1758178">Pricing</a>
+        <a href="for-teams">Slides for Teams</a>
+        <a href="for-developers">Slides for Developers</a>
+      </div>
+
+      <div class="link-group">
+        <h4>Help</h4>
+        <a href="https://help.slides.com" target="_blank" rel="noopener">Forum</a>
+        <a href="https://help.slides.com/knowledgebase" target="_blank" rel="noopener">Knowledge Base</a>
+        <a href="developers">Developers Docs</a>
+        <a href="https://help.slides.com" data-feedback-mode="smartvote">Leave Feedback</a>
+        <a href="https://help.slides.com" data-feedback-mode="contact">Report an Issue</a>
+      </div>
+
+      <div class="link-group">
+        <h4>Company</h4>
+        <a href="https://slides.com/news">News</a>
+        <a href="changelog">Changelog</a>
+        <a href="about">About Slides</a>
+        <a href="security">Security</a>
+        <a href="partners">Partners</a>
+      </div>
+
+      <div class="link-group">
+        <h4>Resources</h4>
+        <a href="slides-ai-gpt">Make slides with AI</a>
+        <a href="embed-google-maps">Embed Google Maps</a>
+        <a href="embed-google-forms">Embed Google Forms</a>
+        <a href="embed-youtube">Embed YouTube</a>
+        <a href="import-pdf">Convert PDF to Slides</a>
+        <a href="import-ppt">Convert PPT to Slides</a>
+        <a href="tools/markdown-to-presentation">Convert Markdown to Slides</a>
+      </div>
+    </div>
+
+    <div class="global-footer-bottom">
+      <div class="social">
+        <a href="https://twitter.com/slides" target="_blank" rel="noopener" class="twitter-link" aria-label="Go to Slides' Twitter profile">
+          <svg xmlns="http://www.w3.org/2000/svg" width="34" height="32" viewBox="0 0 34 32"><path fill="currentColor" d="M33.482 5.964q0 .179-.089.321-1.143 1.857-3.196 3.393v.589q.071 4.054-1.786 8.161-2.393 5.304-7.098 8.295T10.75 29.714q-4.732 0-8.929-2.179-1.143-.589-1.554-.893-.268-.214-.268-.482 0-.232.17-.402t.402-.17q.25 0 .786.045t.804.045q3.643 0 6.696-1.893-1.839-.429-3.232-1.714t-1.982-3.089q-.036-.143-.036-.196 0-.214.161-.384t.393-.17q.089 0 .25.036t.214.036q-1.589-.982-2.536-2.625t-.946-3.5q0-.268.205-.455t.491-.188q.179 0 .625.205t.536.241q-1.643-1.964-1.643-4.571 0-.911.259-1.929t.723-1.696q.179-.286.446-.286.286 0 .482.214 1.357 1.5 1.964 2.054 2.196 1.982 4.929 3.17t5.661 1.438q-.071-.375-.071-.875 0-2.982 2.116-5.098t5.098-2.116q2.911 0 5.036 2.036 1.696-.357 3.732-1.464.143-.089.286-.089.232 0 .402.17t.17.402q0 .429-.5 1.304t-.911 1.357q.125-.036.536-.188t.768-.286.429-.134q.232 0 .402.17t.17.402z"/></svg>
+        </a>
+        <a href="https://facebook.com/slidesapp" target="_blank" rel="noopener" class="facebook-link" aria-label="Go to Slides' Facebook profile">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="32" viewBox="0 0 14 32"><path fill="currentColor" d="M10 7.339q-.875 0-1.107.277t-.232 1.188v1.571h3.875q.286 0 .482.214.196.232.179.518l-.25 3.571q-.036.268-.223.455t-.455.188H8.662v13.714q0 .286-.196.482t-.464.196H3.538q-.286 0-.482-.196t-.196-.482V15.321H.681q-.286 0-.482-.205t-.196-.491v-3.571q0-.286.196-.482t.482-.196H2.86V8.537q0-3.161 1.571-4.705t4.768-1.545q2.143 0 4.018.536.25.071.393.286t.107.464l-.482 3.482q-.036.286-.286.464-.25.161-.536.107-1.357-.286-2.411-.286z"/></svg>
+        </a>
+      </div>
+      <div class="legal">
+        <a href="terms">Terms</a>
+        &bull; <a href="privacy?root=true">Privacy</a>
+        &bull; <span class="copyright">&copy;&nbsp;2024&nbsp;Slides,&nbsp;Inc.</span>
+      </div>
+    </div>
+</footer>
+
+    </div> <!--! end of #container -->
+    
+<script>
+	var SLConfig = {};
+</script>
+    <script src="https://assets-v2.slid.es/assets/application-be9ee223089c220ec8cbe773c8121b17e106fec60033573ae2c264490cf4ed38.js" defer="defer"></script>
+    
+    <script>
+UserVoice=window.UserVoice||[];(function(){var uv=document.createElement('script');uv.type='text/javascript';uv.async=true;uv.src='//widget.uservoice.com/f7sH7NavrjjvuGxByaw.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(uv,s)})();
+
+UserVoice.push(['set', {
+  accent_color: '#448dd6',
+  trigger_color: 'white',
+  trigger_background_color: 'rgba(46, 49, 51, 0.6)',
+  position: 'automatic'
+}]);
+
+</script>
+
+  </body>
+</html>

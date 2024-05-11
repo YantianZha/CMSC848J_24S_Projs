@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html class="sl-root home features marketing-page" data-account=""  lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>Features | Slides</title>
+    <meta name="description" content="Learn all about what features we support and see previews of them in action." />
+    <meta name="viewport" content="initial-scale=1.0" />
+
+    <meta name="theme-color" content="#3249b7" />
+
+    <meta property="og:title" content="Features | Slides" />
+    <meta property="og:description" content="Learn all about what features we support and see previews of them in action." />
+    <meta property="og:site_name" content="Slides" />
+    <meta property="og:image" content="https://static.slid.es/logo/slides-logo-495x479.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://slides.com/features" />
+    <meta property="fb:app_id" content="146002942236376" />
+
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="msapplication-tap-highlight" content="no" />
+
+    <link rel="icon" href="favicon.ico">
+    <link rel="canonical" href="features" />
+    <link rel="manifest" href="manifest.json">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" media="print" onload="this.onload=null;this.removeAttribute('media');" rel="stylesheet" data-application-font="inter">
+<noscript>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" data-application-font="inter">
+</noscript>
+
+    <link rel="stylesheet" media="all" href="https://assets-v2.slid.es/assets/slides/slides-9c25ece2476c8bf5a292aee738b856615560afa562b87317c421312b668451c1.css" />
+    <link rel="stylesheet" media="all" href="https://assets-v2.slid.es/assets/application-8d44c00fad2ed21bf300c56966d1b6e331e5225aa1a3eb451c912e7c0884885e.css" />
+    
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="4CO/nl/Nx6O9Hms/QVp4iy2dqPy2XoxGoQoFUQPC81qin+kqWh6zDMtmYOwRTJze7SiQsxE1zqrKfoINXvNSlw==" />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LWVDH9STBJ"></script>
+<script type="text/javascript">
+  if( navigator.doNotTrack !== '1' && !/dnt=1/.test( window.location.search ) ) {
+    window.slidesMeasurementId = 'G-LWVDH9STBJ';
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-LWVDH9STBJ', {
+      page_title: 'home-features'
+    });
+
+  }
+</script>
+<script type="text/javascript">
+    !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags getFeatureFlag getFeatureFlagPayload reloadFeatureFlags group updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures getActiveMatchingSurveys getSurveys onSessionId".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+    posthog.init('phc_QkZFJaDCIpVoVE127ePiwD5cyZPo1TPDulbTzPPO9uM',{api_host:'https://us.i.posthog.com'})
+</script>
+
+    
+  </head>
+  <body >
+    
+    <div id="container" class="container">
+      
+
+<header class="global-header fixed">
+  <div class="wrapper">
+    <div class="slides-logo logo-animation">
+      <a class="symbol" href="index.html" aria-label="Go to the Slides homepage">
+        <div class="box-1"></div>
+        <div class="box-2"></div>
+        <div class="box-3"></div>
+      </a>
+      <a class="word" href="index.html" aria-label="Go to the Slides homepage"></a>
+    </div>
+    <div class="nav-wrapper">
+        <ul class="nav nav-full">
+          <li class="nav-item " data-page-id="home/explore">
+            <a class="nav-item-anchor" href="explore"><span class="nav-item-label wide">Presentations</span></a>
+          </li>
+          <li class="nav-item " data-page-id="home/templates">
+            <a class="nav-item-anchor" href="templates"><span class="nav-item-label wide">Templates</span></a>
+          </li>
+          <li class="nav-item nav-item-selected" data-page-id="home/features">
+            <a class="nav-item-anchor" href="features"><span class="nav-item-label">Features</span></a>
+          </li>
+          <li class="nav-item " data-page-id="marketing/teams">
+            <a class="nav-item-anchor" href="for-teams"><span class="nav-item-label wide">Teams</span></a>
+          </li>
+          <li class="nav-item " data-page-id="static/pricing">
+            <a class="nav-item-anchor" href="pricing?h=1"><span class="nav-item-label">Pricing</span></a>
+          </li>
+          <li class="nav-item-divider hide-in-overlay-menu"></li>
+          <li class="nav-item hide-in-overlay-menu" data-page-id="sessions/new">
+            <a class="nav-item-anchor" href="users/sign_in"><span class="nav-item-label">Log in</span></a>
+          </li>
+          <li class="nav-item hide-in-overlay-menu nav-item-highlighted">
+            <a class="nav-item-anchor" href="decks/fork/1758178"><span class="nav-item-label">Sign up</span></a>
+          </li>
+        </ul>
+        <ul class="nav nav-compact">
+          <li class="nav-item" data-page-id="sessions/new">
+            <a class="nav-item-anchor" href="users/sign_in"><span class="nav-item-label">Log in</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-item-anchor" href="decks/fork/1758178"><span class="nav-item-label">Sign up</span></a>
+          </li>
+          <li class="nav-item menu-button nav-item-highlighted">
+            <button class="nav-item-anchor">
+              <span class="nav-item-label wide">Menu</span>
+              <svg class="menu-arrow" viewBox="0 0 20 20" width="18" height="18" style="vertical-align: middle;">
+                <path fill="currentColor" d="M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747 3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0 1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787 0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17 0-1.615z"></path>
+              </svg>
+            </button>
+          </li>
+        </ul>
+    </div>
+  </div>
+</header>
+
+
+      
+      <main id="main" class="main " role="main">
+        
+<section class="marketing-section marketing-header text-only ocean-blue">
+  <h1>Heavy on features, light on complexity</h1>
+  <p>Slides is incredibly easy to use but the platform is also packed with functionality that we think you'll love. Let us tell you about some of our favorite features.</p>
+  <svg class="marketing-section-curve" viewBox="0 0 1000 20" height="20" preserveAspectRatio="none">
+    <path d="M0,0 L 1000,0 1000,20 S 500,20 0,0"></path>
+  </svg>
+</section>
+
+<section class="features-section marketing-section" id="features-core">
+  <ul>
+    <li class="features-item">
+      <h4>Always With You</h4>
+      <p>Your presentations live in the cloud and can be accessed from any device. Present or edit from your computer, phone or tablet.</p>
+    </li>
+    <li class="features-item">
+      <h4>Smart Tools for Presenting</h4>
+      <p><a href="https://help.slides.com/knowledgebase/articles/333924-live-streaming">Live stream</a> your slides directly to your audience. Use your phone as a <a href="https://help.slides.com/knowledgebase/articles/333925-remote-control">Remote Control</a> to navigate your slides and see speaker notes.</p>
+    </li>
+    <li class="features-item">
+      <h4>Live Annotation <span class="features-tag icon i-eye" data-preview-media="https://static.slid.es/site/features/v1/live-annotation-deck.mp4" data-preview-media-width="1604" data-preview-media-height="1064"></h4>
+      <p>Guide your audience through presentations with freehand annotation. Drawings broadcast to your audience in realtime. <a href="news/live-annotation">Learn more</a>.</p>
+    </li>
+    <li class="features-item">
+      <h4>Auto-Animate <span class="features-tag icon i-eye" data-preview-media="https://static.slid.es/site/features/v1/auto-animate.mp4" data-preview-media-width="1280" data-preview-media-height="648"></h4>
+      <p>Create stunning animations with ease thanks to Auto-Animate. Check out an <a href="https://slides.com/news/auto-animate">example</a> to learn more.</p>
+    </li>
+    <li class="features-item">
+      <h4>Interactivity <span class="features-tag icon i-eye" data-preview-media="https://static.slid.es/site/features/v1/interactivity.mp4" data-preview-media-width="1082" data-preview-media-height="768"></h4>
+      <p>Add a whole new level of depth to your slides with click, tap and hover interactions. <a href="https://slides.com/news/interactivity">Learn more and see examples.</a></p>
+    </li>
+    <li class="features-item">
+      <h4>Syntax Highlighted Code <span class="features-tag icon i-eye" data-preview-media="https://static.slid.es/site/features/v1/code-sd.mp4" data-preview-media-width="1162" data-preview-media-height="720"></h4>
+      <p>Show syntax highlighted code directly within your slides using the <a href="https://help.slides.com/knowledgebase/articles/646126-syntax-highlighted-code">Code Block</a>. Supports multiple languages and styles.</p>
+    </li>
+    <li class="features-item">
+      <h4>Slides AI <span class="features-tag icon i-eye" data-preview-media="https://static.slid.es/site/homepage/v3/ai-copywriter-full-1728x1080-web.mp4" data-preview-media-width="1728" data-preview-media-height="1080"></h4>
+      <p>Tap into the power of AI to elevate your writing, generate slides and more. <a href="news/slides-ai">Learn more</a>.</p>
+    </li>
+    <li class="features-item">
+      <h4>Share Publicly <span class="features-tag icon i-eye" data-preview-media="https://static.slid.es/site/features/v1/public-deck.gif" data-preview-media-width="1151" data-preview-media-height="1059"></h4>
+      <p>Sharing a presentation is as easy as sharing a link. Public presentations can be commented on and liked. <a href="explore">Explore public presentations.</a></p>
+    </li>
+    <li class="features-item">
+      <h4>Share Privately <span class="features-tag icon i-eye" data-preview-media="https://static.slid.es/site/features/v1/share-privately.gif" data-preview-media-width="1395" data-preview-media-height="825"></h4>
+      <p>Create any number of named <a href="https://help.slides.com/knowledgebase/articles/497154-sharing-private-decks">private links</a> to your decks, track if they have been opened and revoke access at any time.</p>
+    </li>
+    <li class="features-item">
+      <h4>Password Protection <span class="features-tag icon i-eye" data-preview-media="https://static.slid.es/site/features/v1/slides-password.gif" data-preview-media-width="806" data-preview-media-height="484"></h4>
+      <p>Set a password that viewers will need to enter in order to view your presentation.</p>
+    </li>
+    <li class="features-item">
+      <h4>Embed</h4>
+      <p>Your presentations can be embedded on other pages. Pro users can also export to HTML and host the presentation themselves.</p>
+    </li>
+    <li class="features-item">
+      <h4>Analytics</h4>
+      <p>Learn how your content is performing and where traffic is coming from with our Google Analytics integration.</p>
+    </li>
+  </ul>
+  <svg class="marketing-section-curve" viewBox="0 0 1000 40" height="40" preserveAspectRatio="none">
+    <path d="M0,0 L 1000,0 S 500,0 0,40"></path>
+  </svg>
+</section>
+
+<section class="features-section marketing-section" id="features-editing">
+  <h3>Editing</h3>
+  <ul>
+    <li class="features-item">
+      <h4>Media Library <span class="features-tag icon i-eye" data-preview-media="https://static.slid.es/site/features/v1/medialibrary-v2.png" data-preview-media-width="1032" data-preview-media-height="682"></h4>
+      <p>All media that you upload is available in your personal <a href="https://help.slides.com/knowledgebase/articles/552825-media-library">media library</a>. Team members also have access to a shared library.</p>
+    </li>
+    <li class="features-item">
+      <h4>Slide Templates <span class="features-tag icon i-eye" data-preview-media="https://static.slid.es/site/features/v1/templates.gif" data-preview-media-width="1395" data-preview-media-height="825"></h4>
+      <p>Save any slide as a template for easy reuse. Teams have access to a shared library of slide templates.</p>
+    </li>
+    <li class="features-item">
+      <h4>Iframe <span class="features-tag icon i-eye" data-preview-media="https://static.slid.es/site/features/v1/iframe.gif" data-preview-media-width="1234" data-preview-media-height="745"></h4>
+      <p>Include content from other services like YouTube, Vimeo and Google Maps. Embedded content is interactive right within the presentation.</p>
+    </li>
+    <li class="features-item">
+      <h4>Vertical Slides <span class="features-tag icon i-eye" data-preview-media="https://static.slid.es/site/features/v1/vertical-slides.gif" data-preview-media-width="1127" data-preview-media-height="796"></h4>
+      <p>Add optional slides below your main content. These vertical slides can easily be stepped through or skipped when presenting.</p>
+    </li>
+    <li class="features-item">
+      <h4>Search Unsplash &amp; GIPHY <span class="features-tag icon i-eye" data-preview-media="https://static.slid.es/site/features/v1/medialibrary-search.mp4" data-preview-media-width="996" data-preview-media-height="720"></h4>
+      <p>Select freely from hundreds of thousands of high quality GIFs and photos to use in your presentation.</p>
+    </li>
+    <li class="features-item">
+      <h4>SVG</h4>
+      <p>Upload and insert SVG images in your presentation. This is an excellent way to ensure your content looks crisp no matter the display size. <a href="news/svg">View example</a>.</p>
+    </li>
+    <li class="features-item">
+      <h4>AI Copywriter <span class="features-tag icon i-eye" data-preview-media="https://static.slid.es/site/homepage/v3/ai-copywriter-full-1728x1080-web.mp4" data-preview-media-width="1728" data-preview-media-height="1080"></h4>
+      <p>Use our AI copywriter assistant to help you write better content and save time.</p>
+    </li>
+    <li class="features-item">
+      <h4>AI Slide Generator <span class="features-tag icon i-eye" data-preview-media="https://static.slid.es/site/homepage/v3/ai-generation-2-2202x1560.mp4" data-preview-media-width="2202" data-preview-media-height="1560"></h4>
+      <p>Low on inspiration? Give you AI-powered slide generator a topic and it will provide you with a full presentation outline in no time.</p>
+    </li>
+    <li class="features-item">
+      <h4>Video</h4>
+      <p>Upload and play videos in your slides. We automatically convert the video to a standard format to ensure it can play anywhere.</p>
+    </li>
+    <li class="features-item">
+      <h4>Freehand Drawing <span class="features-tag icon i-eye" data-preview-media="https://static.slid.es/site/changelog/freehand-whale.mp4" data-preview-media-width="2634" data-preview-media-height="1260"></h4>
+      <p>Add a personal touch to your slides with pressure sensitive freehand drawings. Great for annotation and highlights. <a href="https://slides.com/news/drawing">View example</a>.</p>
+    </li>
+    <li class="features-item">
+      <h4>Forking</h4>
+      <p>Public presentations on Slides can be forked, meaning you can use other people's layout and design as templates for your content.</p>
+    </li>
+    <li class="features-item">
+      <h4>Style Presets</h4>
+      <p>There's a wide variety of themes and transitions to pick from to make sure things look and move the way you want them.</p>
+    </li>
+    <li class="features-item">
+      <h4>Typekit &amp; Google Fonts</h4>
+      <p>Use custom fonts from Typekit, Google Fonts or your own host.</p>
+    </li>
+    <li class="features-item">
+      <h4>Animations</h4>
+      <p>Control how and when each individual element on your slide appears.</p>
+    </li>
+    <li class="features-item">
+      <h4>Fragments <span class="features-tag icon i-eye" data-preview-media="https://static.slid.es/site/features/v1/fragments-2.mp4" data-preview-media-width="1382" data-preview-media-height="774"></h4>
+      <p>Break a slide into multiple "fragments" to reveal it step-by-step. Control how each step animates.</p>
+    </li>
+    <li class="features-item">
+      <h4>Custom CSS</h4>
+      <p>Use the <a href="https://help.slides.com/knowledgebase/articles/253052-custom-css-pro">CSS editor</a> to completely customize your presentation. Previews in real-time for a seamless experience.</p>
+    </li>
+    <li class="features-item">
+      <h4>Edit HTML</h4>
+      <p>Decks are stored as HTML documents, so you can always <a href="developers#developer-mode">edit the markup</a> and customize to your needs.</p>
+    </li>
+    <li class="features-item">
+      <h4>Math Formulas <span class="features-tag icon i-eye" data-preview-media="https://static.slid.es/site/features/v1/math.gif" data-preview-media-width="1395" data-preview-media-height="825"></h4>
+      <p>Easily display beautifully rendered math formulas inside of your presentations. <a href="news/math">View example</a>.</p>
+    </li>
+    <li class="features-item">
+      <h4>Revision History <span class="features-tag icon i-eye" data-preview-media="https://static.slid.es/site/features/v1/revisions.png" data-preview-media-width="1439" data-preview-media-height="796"></h4>
+      <p>Made a mistake? No problem. We automatically store a history of your saved changes so that you can roll back anytime.</p>
+    </li>
+    <li class="features-item">
+      <h4>Import from PDF/PPT</h4>
+      <p>Point us to a PDF/PPT file and we'll import it to the Slides editor, from there you can easily share and present it to anyone.</p>
+    </li>
+    <li class="features-item">
+      <h4>Import from Markdown <span class="features-tag icon i-eye" data-preview-media="https://static.slid.es/site/features/v1/markdown-import.png" data-preview-media-width="2756" data-preview-media-height="1598"></h4>
+      <p>Turn your Markdown into a beautiful slide deck in minutes. Previews in realtime. <a href="tools/markdown-to-presentation">Try it for free, no account required.</a></p>
+    </li>
+    <li class="features-item">
+      <h4>Kiosk Mode / Autoplay</h4>
+      <p>Easily auto-play and loop any presentation using the <a href="https://help.slides.com/knowledgebase/articles/1935220">Kiosk Mode</a>. Automatically reloads the latest content if the deck is edited.</p>
+    </li>
+    <li class="features-item">
+      <h4>Flexible Resolution <span class="features-tag icon i-eye" data-preview-media="https://static.slid.es/site/features/v1/presentation-size.mp4" data-preview-media-width="974" data-preview-media-height="1138"></h4>
+      <p>Full control over the resolution of your presentation. Pick from 16:9, 4:3, portrait, or enter a custom size.</p>
+    </li>
+    <li class="features-item">
+      <h4>Layout Grid <span class="features-tag icon i-eye" data-preview-media="https://static.slid.es/site/features/v1/grid.gif" data-preview-media-width="974" data-preview-media-height="713"></h4>
+      <p>The editor grid makes it easy to keep your designs balanced and aligned.</p>
+    </li>
+    <li class="features-item">
+      <h4>Drag to Select <span class="features-tag icon i-eye" data-preview-media="https://static.slid.es/site/features/v1/drag-selection.gif" data-preview-media-width="974" data-preview-media-height="713"></h4>
+      <p>Click + drag to select multiple content blocks and use multi-select layout options to position them.</p>
+    </li>
+    <li class="features-item">
+      <h4>Context Menu <span class="features-tag icon i-eye" data-preview-media="https://static.slid.es/site/features/v1/context-menu.mp4" data-preview-media-width="986" data-preview-media-height="720"></h4>
+      <p>Right-click any content block to reveal a list of contextual options.</p>
+    </li>
+    <li class="features-item">
+      <h4>Bulk-Editing <span class="features-tag icon i-eye" data-preview-media="https://static.slid.es/site/features/v1/bulk-edit-blocks.mp4" data-preview-media-width="1416" data-preview-media-height="904"></h4>
+      <p>Work faster by selecting and configuring multiple content blocks at once.</p>
+    </li>
+    <li class="features-item">
+      <h4>Locked Slides <span class="features-tag icon i-eye" data-preview-media="https://static.slid.es/site/features/v1/lock-slides.mp4" data-preview-media-width="2750" data-preview-media-height="1602"></h4>
+      <p>You can lock your slides to prevent accidental edits. Locked slides can only be unlocked the presentation owner.</p>
+    </li>
+    <li class="features-item">
+      <h4>Locked Content <span class="features-tag icon i-eye" data-preview-media="https://static.slid.es/site/features/v1/lock-block.gif" data-preview-media-width="1363" data-preview-media-height="834"></h4>
+      <p>Content blocks can be locked to prevent accidental edits.</p>
+    </li>
+    <li class="features-item">
+      <h4>Grouped Content <span class="features-tag icon i-eye" data-preview-media="https://static.slid.es/site/features/v1/groups.mp4" data-preview-media-width="1826" data-preview-media-height="1372"></h4>
+      <p>Multiple blocks can be grouped for easier editing. Groups can be nested.</p>
+    </li>
+    <li class="features-item">
+      <h4>Shuffle Slides</h4>
+      <p>Turn on the "Shuffle Slides" option to randomize the order of slides each time a deck loads.</p>
+    </li>
+    <li class="features-item">
+      <h4>RTL Support</h4>
+      <p>Enable the RTL mode to author a presentation in a language that is written right-to-left.</p>
+    </li>
+    <li class="features-item">
+      <h4>Tables <span class="features-tag icon i-eye" data-preview-media="https://static.slid.es/site/features/v1/tables.gif" data-preview-media-width="1395" data-preview-media-height="825"></h4>
+      <p>Easily show tabular data using the Table content block.</p>
+    </li>
+    <li class="features-item"><!-- filler --></li>
+  </ul>
+  <svg class="marketing-section-curve" viewBox="0 0 1000 30" height="30" preserveAspectRatio="none">
+    <path d="M0,0 L 1000,0 1000,30 S 500,30 0,0"></path>
+  </svg>
+</section>
+
+<section class="features-section marketing-section" id="features-presenting">
+  <h3>Presenting &amp; Sharing</h3>
+  <ul>
+    <li class="features-item">
+      <h4>Present Live</h4>
+      <p>Broadcast your presentations to an audience of any size. Viewers can <a href="https://help.slides.com/knowledgebase/articles/333924-live-streaming">follow along in real-time</a> from any device, anywhere in the world.</p>
+    </li>
+    <li class="features-item">
+      <h4>Live Cursor <span class="features-tag icon i-eye" data-preview-media="https://static.slid.es/site/features/v1/live-cursor.gif" data-preview-media-width="1432" data-preview-media-height="1072"></h4>
+      <p>Show your cursor and clicks to all viewers in real-time. Think of it like a digital laser pointer.</p>
+    </li>
+    <li class="features-item">
+      <h4>Live Edits <span class="features-tag icon i-eye" data-preview-media="https://static.slid.es/site/features/v1/live-edit.gif" data-preview-media-width="1382" data-preview-media-height="1065"></h4>
+      <p>Edits made to your deck during a live presentation are immediately visible to all viewers.</p>
+    </li>
+    <li class="features-item">
+      <h4>Scroll Mode <span class="features-tag icon i-eye" data-preview-media='https://static.slid.es/site/features/v1/scroll-mode.mp4' data-preview-media-width='3180' data-preview-media-height='2160'></h4>
+      <p>Tired of pagination? Any presentation on Slides can be viewed or shared as a scrollable page. <a href="news/scroll-mode/scroll">Try a demo.</a></p>
+    </li>
+    <li class="features-item">
+      <h4>Speaker Notes</h4>
+      <p>Write <a href="https://help.slides.com/knowledgebase/articles/333926-speaker-notes">speaker notes</a> for your slides to make sure the presentation stays on point.</p>
+    </li>
+    <li class="features-item">
+      <h4>Speaker View <span class="features-tag icon i-eye" data-preview-media="https://static.slid.es/site/features/v1/speaker-view.gif" data-preview-media-width="1395" data-preview-media-height="825"></h4>
+      <p>A dedicated view for the presenter. Includes your notes, a preview of the upcoming slide as well as the elapsed and current time.</p>
+    </li>
+    <li class="features-item">
+      <h4>Private Decks <span class="features-tag icon i-eye" data-preview-media="https://static.slid.es/site/features/v1/visibility.gif" data-preview-media-width="1395" data-preview-media-height="825"></h4>
+      <p>Your presentations are <a href="https://help.slides.com/knowledgebase/articles/405987-privacy">private</a> by default. You can choose to publish them at anytime to share publicly.</p>
+    </li>
+    <li class="features-item">
+      <h4>Sharing Your Notes <span class="features-tag icon i-eye" data-preview-media="https://static.slid.es/site/features/v1/notes.gif" data-preview-media-width="1395" data-preview-media-height="825"></h4>
+      <p>Speaker notes are private by default, but you can opt-in to <a href="news/share-slide-notes">showing them</a> next to your slides to give viewers more context.</p>
+    </li>
+    <li class="features-item">
+      <h4>Remote Control <span class="features-tag icon i-eye" data-preview-media="https://s3.amazonaws.com/media-p.slid.es/videos/32388/a2C-MFFf/remote-control-720.mp4" data-preview-media-width="1280" data-preview-media-height="720"></h4>
+      <p>Presentations can be <a href="https://help.slides.com/knowledgebase/articles/333925-remote-control">remote controlled</a> from any touch-enabled mobile device. Tap your phone and see the presentation update on the big screen.</p>
+    </li>
+    <li class="features-item">
+      <h4>Present Offline</h4>
+      <p>We understand the need to work offline so we provide an easy-to-use method for exporting your presentations.</p>
+    </li>
+    <li class="features-item">
+      <h4>PDF Export</h4>
+      <p>Export any presentation to PDF at the click of a button. Great for printing.</p>
+    </li>
+    <li class="features-item">
+      <h4>Dropbox</h4>
+      <p>Automatically sync your work on Slides to Dropbox so that you have an offline copy, and backup, of your most recent changes wherever you go.</p>
+    </li>
+    <li class="features-item">
+      <h4>Hidden Slides <span class="features-tag icon i-eye" data-preview-media="https://static.slid.es/site/features/v1/hidden-slides.gif" data-preview-media-width="2000" data-preview-media-height="1174"></h4>
+      <p>Slides can be <a href="https://help.slides.com/knowledgebase/articles/1946899-hidden-slides">hidden from view</a>. Hidden slides remain visible while editing, allowing you to quickly turn slides on or off depending on who you're presenting to.</p>
+    </li>
+    <li class="features-item">
+      <h4>Auto-Expiring Links <span class="features-tag icon i-eye" data-preview-media="https://static.slid.es/site/features/v1/link-expiry.mp4" data-preview-media-width="2784" data-preview-media-height="2160"></h4>
+      <p>Private links that you share to your presentations can be set to automatically expire for added security.</p>
+    </li>
+  </ul>
+  <svg class="marketing-section-curve" viewBox="0 0 1000 20" height="20" preserveAspectRatio="none">
+    <path d="M0,0 L 1000,0 1000,20 S 500,20 0,0"></path>
+  </svg>
+</section>
+
+<section class="features-section marketing-section" id="features-teams">
+  <h3>Teams &amp; Enterprise</h3>
+  <ul>
+    <li class="features-item">
+      <h4>Custom Domain</h4>
+      <p>Your team exists on a subdomain like acme.slides.com. This subdomain doesn't have any Slides branding.</p>
+    </li>
+    <li class="features-item">
+      <h4>Team Homepage</h4>
+      <p>Browse and search for presentations created by your team members on the homepage.</p>
+    </li>
+    <li class="features-item">
+      <h4>Collaborate <span class="features-tag icon i-eye" data-preview-media="https://static.slid.es/site/features/v1/collab-editor-typing.png" data-preview-media-width="2880" data-preview-media-height="1800"></h4>
+      <p>With <a href="https://help.slides.com/knowledgebase/articles/898107-collaboration-shared-editing">Collaborate on Slides</a> it's incredibly easy to invite others to edit your presentations. Comments are made on the active slide so that context is always tracked.</p>
+    </li>
+    <li class="features-item">
+      <h4>Theme Editor <span class="features-tag icon i-eye" data-preview-media="https://static.slid.es/site/features/v1/theme-editor-2.png" data-preview-media-width="1436" data-preview-media-height="800"></h4>
+      <p>Create any number of custom presentation themes that the whole team has access to. Select a default for all new presentations.</p>
+    </li>
+    <li class="features-item">
+      <h4>Shared Media Library <span class="features-tag icon i-eye" data-preview-media="https://static.slid.es/site/features/v1/medialibrary-team-v2.png" data-preview-media-width="1031" data-preview-media-height="680"></h4>
+      <p>Upload and organize a shared library of logos, images, videos and other assets. No more searching for the right content to use.</p>
+    </li>
+    <li class="features-item">
+      <h4>Shared Slide templates <span class="features-tag icon i-eye" data-preview-media="https://static.slid.es/site/features/v1/templates.gif" data-preview-media-width="1395" data-preview-media-height="825"></h4>
+      <p>Admins can save slide templates that all members have easy access to when inserting a new slide.</p>
+    </li>
+    <li class="features-item">
+      <h4>Copy Each Other's Decks</h4>
+      <p>Team members can easily copy each other's decks. This is great for sharing presentation templates.</p>
+    </li>
+    <li class="features-item">
+      <h4>Analytics</h4>
+      <p>Team admins can use our Google Analytics integration to learn where traffic is coming and how presentations are viewed.</p>
+    </li>
+    <li class="features-item">
+      <h4>SSO using Google Apps</h4>
+      <p>Let your team members join the Team at their own convenience without any sending individual invites. <a href="https://help.slides.com/knowledgebase/articles/1088971-single-sign-on-sso-using-google-apps">Learn more.</a></p>
+    </li>
+    <li class="features-item">
+      <h4>Locked Slide Designs <span class="features-tag icon i-eye" data-preview-media="https://static.slid.es/site/features/v1/lock-slides.mp4" data-preview-media-width="2750" data-preview-media-height="1602"></h4>
+      <p>Team admins can lock slides to prevent other members from editing them. This ensures your template designs are never tampered with.</p>
+    </li>
+    <li class="features-item">
+      <h4>Team Member Management <span class="features-tag icon i-eye" data-preview-media="https://static.slid.es/site/features/v1/edit-members.png" data-preview-media-width="975" data-preview-media-height="952"></h4>
+      <p>Easily invite new members, deactivate existing accounts or change member roles from the <a href="https://help.slides.com/knowledgebase/articles/293991-team-members">team members</a> page.</p>
+    </li>
+    <li class="features-item">
+      <h4>Unified Billing</h4>
+      <p>Pay for the number of members you add. Easily deactivate accounts to cut down costs.</p>
+    </li>
+    <li class="features-item">
+      <!-- placeholder -->
+    </li>
+  </ul>
+  <svg class="marketing-section-curve" viewBox="0 0 1000 30" height="30" preserveAspectRatio="none">
+    <path d="M0,0 L 1000,0 S 500,0 0,30"></path>
+  </svg>
+</section>
+
+<section class="features-section marketing-section" id="features-developers">
+  <h3>Developers</h3>
+  <ul>
+    <li class="features-item">
+      <h4>Developer Mode</h4>
+      <p>If you know some HTML and CSS you can enable the editor's developer mode to gain access to advanced features. <a href="developers#developer-mode">Read more.</a></p>
+    </li>
+    <li class="features-item">
+      <h4>Define API <span class="features-tag icon i-eye" data-preview-media="https://static.slid.es/site/features/v1/define-api-flow.gif" data-preview-media-width="1317" data-preview-media-height="794"></h4>
+      <p>We have an API for creating prefilled presentations. <a href="developers#define-api">Read the docs.</a></p>
+    </li>
+    <li class="features-item">
+      <h4>Open Source</h4>
+      <p>Presentations on Slides are powered by the <a href="https://github.com/hakimel/reveal.js">reveal.js</a> HTML presentation framework. Exported presentations can be self-hosted and customized down to the last line of JS.</p>
+    </li>
+  </ul>
+  <svg class="marketing-section-curve" viewBox="0 0 1000 40" height="40" preserveAspectRatio="none">
+    <path d="M0,0 L 1000,0 S 500,0 0,40"></path>
+  </svg>
+</section>
+
+<div class="cta marketing-section">
+  <h4 class="create-account-intro">Ready to create your first deck?</h4>
+  <a class="create-account button blue xxl" href="decks/fork/1758178">
+    <span>Start presenting</span>
+  </a>
+  <svg class="marketing-section-curve" viewBox="0 0 1000 30" height="30" preserveAspectRatio="none">
+    <path d="M0,0 L 1000,0 1000,30 S 500,30 0,0"></path>
+  </svg>
+</div>
+
+      </main>
+      <footer class="global-footer ">
+    <div class="global-footer-links">
+      <div class="link-group">
+        <h4>Tour</h4>
+        <a href="explore">Presentations</a>
+        <a href="recent">Trending decks</a>
+        <a href="templates">Templates</a>
+        <a href="features">Features</a>
+        <a href="decks/fork/1758178">Pricing</a>
+        <a href="for-teams">Slides for Teams</a>
+        <a href="for-developers">Slides for Developers</a>
+      </div>
+
+      <div class="link-group">
+        <h4>Help</h4>
+        <a href="https://help.slides.com" target="_blank" rel="noopener">Forum</a>
+        <a href="https://help.slides.com/knowledgebase" target="_blank" rel="noopener">Knowledge Base</a>
+        <a href="developers">Developers Docs</a>
+        <a href="https://help.slides.com" data-feedback-mode="smartvote">Leave Feedback</a>
+        <a href="https://help.slides.com" data-feedback-mode="contact">Report an Issue</a>
+      </div>
+
+      <div class="link-group">
+        <h4>Company</h4>
+        <a href="https://slides.com/news">News</a>
+        <a href="changelog">Changelog</a>
+        <a href="about">About Slides</a>
+        <a href="security">Security</a>
+        <a href="partners">Partners</a>
+      </div>
+
+      <div class="link-group">
+        <h4>Resources</h4>
+        <a href="slides-ai-gpt">Make slides with AI</a>
+        <a href="embed-google-maps">Embed Google Maps</a>
+        <a href="embed-google-forms">Embed Google Forms</a>
+        <a href="embed-youtube">Embed YouTube</a>
+        <a href="import-pdf">Convert PDF to Slides</a>
+        <a href="import-ppt">Convert PPT to Slides</a>
+        <a href="tools/markdown-to-presentation">Convert Markdown to Slides</a>
+      </div>
+    </div>
+
+    <div class="global-footer-bottom">
+      <div class="social">
+        <a href="https://twitter.com/slides" target="_blank" rel="noopener" class="twitter-link" aria-label="Go to Slides' Twitter profile">
+          <svg xmlns="http://www.w3.org/2000/svg" width="34" height="32" viewBox="0 0 34 32"><path fill="currentColor" d="M33.482 5.964q0 .179-.089.321-1.143 1.857-3.196 3.393v.589q.071 4.054-1.786 8.161-2.393 5.304-7.098 8.295T10.75 29.714q-4.732 0-8.929-2.179-1.143-.589-1.554-.893-.268-.214-.268-.482 0-.232.17-.402t.402-.17q.25 0 .786.045t.804.045q3.643 0 6.696-1.893-1.839-.429-3.232-1.714t-1.982-3.089q-.036-.143-.036-.196 0-.214.161-.384t.393-.17q.089 0 .25.036t.214.036q-1.589-.982-2.536-2.625t-.946-3.5q0-.268.205-.455t.491-.188q.179 0 .625.205t.536.241q-1.643-1.964-1.643-4.571 0-.911.259-1.929t.723-1.696q.179-.286.446-.286.286 0 .482.214 1.357 1.5 1.964 2.054 2.196 1.982 4.929 3.17t5.661 1.438q-.071-.375-.071-.875 0-2.982 2.116-5.098t5.098-2.116q2.911 0 5.036 2.036 1.696-.357 3.732-1.464.143-.089.286-.089.232 0 .402.17t.17.402q0 .429-.5 1.304t-.911 1.357q.125-.036.536-.188t.768-.286.429-.134q.232 0 .402.17t.17.402z"/></svg>
+        </a>
+        <a href="https://facebook.com/slidesapp" target="_blank" rel="noopener" class="facebook-link" aria-label="Go to Slides' Facebook profile">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="32" viewBox="0 0 14 32"><path fill="currentColor" d="M10 7.339q-.875 0-1.107.277t-.232 1.188v1.571h3.875q.286 0 .482.214.196.232.179.518l-.25 3.571q-.036.268-.223.455t-.455.188H8.662v13.714q0 .286-.196.482t-.464.196H3.538q-.286 0-.482-.196t-.196-.482V15.321H.681q-.286 0-.482-.205t-.196-.491v-3.571q0-.286.196-.482t.482-.196H2.86V8.537q0-3.161 1.571-4.705t4.768-1.545q2.143 0 4.018.536.25.071.393.286t.107.464l-.482 3.482q-.036.286-.286.464-.25.161-.536.107-1.357-.286-2.411-.286z"/></svg>
+        </a>
+      </div>
+      <div class="legal">
+        <a href="terms">Terms</a>
+        &bull; <a href="privacy?root=true">Privacy</a>
+        &bull; <span class="copyright">&copy;&nbsp;2024&nbsp;Slides,&nbsp;Inc.</span>
+      </div>
+    </div>
+</footer>
+
+    </div> <!--! end of #container -->
+    
+<script>
+	var SLConfig = {};
+</script>
+    <script src="https://assets-v2.slid.es/assets/application-be9ee223089c220ec8cbe773c8121b17e106fec60033573ae2c264490cf4ed38.js" defer="defer"></script>
+    
+    <script>
+UserVoice=window.UserVoice||[];(function(){var uv=document.createElement('script');uv.type='text/javascript';uv.async=true;uv.src='//widget.uservoice.com/f7sH7NavrjjvuGxByaw.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(uv,s)})();
+
+UserVoice.push(['set', {
+  accent_color: '#448dd6',
+  trigger_color: 'white',
+  trigger_background_color: 'rgba(46, 49, 51, 0.6)',
+  position: 'automatic'
+}]);
+
+</script>
+
+  </body>
+</html>
